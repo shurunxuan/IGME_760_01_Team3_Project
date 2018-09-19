@@ -5,27 +5,40 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
-		
+
+    private Vector3 _targetPosition;
+    private Rigidbody _rigidbody;
+
+	void Start ()
+	{
+	    _targetPosition = transform.position;
+	    _rigidbody = gameObject.GetComponent<Rigidbody>();
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
+	    _targetPosition.y = transform.position.y;
         if (Input.GetKey(KeyCode.A))
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - 15.0f * Time.deltaTime);
+            _targetPosition = new Vector3(_targetPosition.x, transform.position.y, _targetPosition.z - 15.0f * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + 15.0f * Time.deltaTime);
+            _targetPosition = new Vector3(_targetPosition.x, transform.position.y, _targetPosition.z + 15.0f * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            transform.position = new Vector3(transform.position.x + 15.0f * Time.deltaTime, transform.position.y, transform.position.z);
+            _targetPosition = new Vector3(_targetPosition.x + 15.0f * Time.deltaTime, transform.position.y, _targetPosition.z);
         }
         if (Input.GetKey(KeyCode.W))
         {
-            transform.position = new Vector3(transform.position.x - 15.0f * Time.deltaTime, transform.position.y, transform.position.z);
+            _targetPosition = new Vector3(_targetPosition.x - 15.0f * Time.deltaTime, transform.position.y, _targetPosition.z);
         }
+    }
+
+    void FixedUpdate()
+    {
+        _rigidbody.MovePosition(_targetPosition);
     }
 }

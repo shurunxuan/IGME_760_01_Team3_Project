@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public Camera MainCamera;
     public float Speed;
     private Rigidbody _rigidbody;
+    private Vector3 localRight;
+    private Vector3 localForward;
     // Use this for initialization
     void Start()
     {
         // Get Rigidbody
         _rigidbody = gameObject.GetComponent<Rigidbody>();
+        localRight = MainCamera.transform.right;
+        localForward = Vector3.Cross(MainCamera.transform.right, Vector3.up);
     }
 
     // Update is called once per frame
@@ -18,8 +23,10 @@ public class Player : MonoBehaviour
     {
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
+
+
         // Calculate the force from user input, and normalize it (making it just a direction)
-        Vector3 force = horizontal * Vector3.forward + vertical * Vector3.left;
+        Vector3 force = horizontal * localRight + vertical * localForward;
         force.Normalize();
 
         // Create a ray from bottom of the object to the direction of force

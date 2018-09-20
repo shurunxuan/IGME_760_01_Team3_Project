@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour {
 
-    GameObject player;
-    bool follow;
+    public GameObject Player;
+    public float Speed;
+    private bool follow;
+    private Vector3 offset;
+    private Vector3 localRight;
+    private Vector3 localForward;
 
-	// Use this for initialization
-	void Start () {
-        player = GameObject.FindGameObjectWithTag("Player");
+    // Use this for initialization
+    void Start () {
         follow = true;
+        localRight = transform.right;
+        localForward = Vector3.Cross(transform.right, Vector3.up);
+        offset = transform.position - Player.transform.position;
+        transform.LookAt(Player.transform);
         Reset();
-        transform.LookAt(player.transform);
 	}
 	
 	// Update is called once per frame
@@ -29,20 +35,20 @@ public class CameraFollow : MonoBehaviour {
         {
             if (Input.GetKey(KeyCode.LeftArrow))
             {
-                this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z - 25.0f * Time.deltaTime);
+                this.transform.position -= localRight * Speed;
             }
             if (Input.GetKey(KeyCode.RightArrow))
             {
-                this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z + 25.0f * Time.deltaTime);
+                this.transform.position += localRight * Speed;
             }
 
             if (Input.GetKey(KeyCode.UpArrow))
             {
-                this.transform.position = new Vector3(this.transform.position.x - 25.0f * Time.deltaTime, this.transform.position.y, this.transform.position.z);
+                this.transform.position += localForward * Speed;
             }
             if (Input.GetKey(KeyCode.DownArrow))
             {
-                this.transform.position = new Vector3(this.transform.position.x + 25.0f * Time.deltaTime, this.transform.position.y, this.transform.position.z);
+                this.transform.position -= localForward * Speed;
             }
         }
 
@@ -55,9 +61,6 @@ public class CameraFollow : MonoBehaviour {
 
     private void Reset()
     {
-        Vector3 camPos = player.transform.position;
-        camPos.x += 20.0f;
-        camPos.y += 20.0f;
-        this.transform.position = camPos;
+        transform.position = Player.transform.position + offset;
     }
 }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4369339, g: 0.47567517, b: 0.51655054, a: 1}
+  m_IndirectSpecularColor: {r: 0.43693453, g: 0.4756757, b: 0.51655114, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -52,8 +52,8 @@ LightmapSettings:
     m_AlbedoBoost: 1
     m_TemporalCoherenceThreshold: 1
     m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 1
-    m_EnableRealtimeLightmaps: 1
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 10
     m_Resolution: 2
@@ -3137,7 +3137,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -12330,13 +12330,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 923933019}
-  m_LocalRotation: {x: -0.011601527, y: -0.8601037, z: 0.50998724, w: 2.6180894e-10}
-  m_LocalPosition: {x: 5, y: 116.5, z: 101.2}
+  m_LocalRotation: {x: 0.14957513, y: -0.83194125, z: 0.3118116, w: 0.43390626}
+  m_LocalPosition: {x: 112.82, y: 49.16, z: 38.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 61.316, y: -178.587, z: 2.3830001}
+  m_LocalEulerAnglesHint: {x: 40.438004, y: -124.30801, z: 1.6350001}
 --- !u!114 &923933023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12348,6 +12348,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bbaace0f7be37641babecf202af97b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 1432996910}
+  Speed: 0.8
 --- !u!45 &923933024
 Skybox:
   m_ObjectHideFlags: 0
@@ -18927,7 +18929,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aebc43979bf31f4a92f6256d8e50f4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 50
+  MainCamera: {fileID: 923933021}
+  Speed: 10
 --- !u!1001 &1433455205
 Prefab:
   m_ObjectHideFlags: 0

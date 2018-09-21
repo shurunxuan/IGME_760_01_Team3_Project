@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43693453, g: 0.4756757, b: 0.51655114, a: 1}
+  m_IndirectSpecularColor: {r: 0.4369338, g: 0.4756751, b: 0.51655024, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -18827,7 +18827,7 @@ GameObject:
   - component: {fileID: 1432996911}
   - component: {fileID: 1432996916}
   - component: {fileID: 1432996915}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -18862,7 +18862,6 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 2100000, guid: a4d914c64624d85449eeb9b404b91b96, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -19540,7 +19539,7 @@ GameObject:
   - component: {fileID: 1474145404}
   - component: {fileID: 1474145403}
   - component: {fileID: 1474145402}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}

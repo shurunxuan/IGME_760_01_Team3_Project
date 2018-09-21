@@ -17,7 +17,7 @@ public class CameraFollow : MonoBehaviour {
         localRight = transform.right;
         localForward = Vector3.Cross(transform.right, Vector3.up);
         offset = transform.position - Player.transform.position;
-        transform.LookAt(Player.transform);
+        //transform.LookAt(Player.transform);
         Reset();
 	}
 	

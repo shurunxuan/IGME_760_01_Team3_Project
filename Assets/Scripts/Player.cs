@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public GameObject DirectionPointer;
     public Camera MainCamera;
     public float Speed;
     private Rigidbody _rigidbody;
     private Vector3 localRight;
     private Vector3 localForward;
+    private Vector3 _directionPointerOffset;
     // Use this for initialization
     void Start()
     {
         // Get Rigidbody
-        _rigidbody = gameObject.GetComponent<Rigidbody>();
+        _rigidbody = gameObject.GetComponentInChildren<Rigidbody>();
+        _directionPointerOffset = DirectionPointer.transform.position - transform.position;
         localRight = MainCamera.transform.right;
         localForward = Vector3.Cross(MainCamera.transform.right, Vector3.up);
     }
@@ -21,6 +24,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        DirectionPointer.transform.position = transform.position + _directionPointerOffset;
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
@@ -29,9 +33,11 @@ public class Player : MonoBehaviour
         Vector3 force = horizontal * localRight + vertical * localForward;
         force.Normalize();
 
+
+
         // Create a ray from bottom of the object to the direction of force
         Vector3 originPoint = transform.position - transform.localScale.y * Vector3.up;
-        Ray ray = new Ray(originPoint + 0.1f * Vector3.up, force);
+        Ray ray = new Ray(originPoint + 0.05f * Vector3.up, force);
         RaycastHit raycastHit;
 
         // Cast a ray toward the direction of force
@@ -49,6 +55,7 @@ public class Player : MonoBehaviour
                 force.Normalize();
             }
         }
+        DirectionPointer.transform.LookAt(DirectionPointer.transform.position + force);
 
         // Apply the force
         _rigidbody.AddForce(force * Speed);

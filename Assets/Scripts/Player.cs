@@ -33,6 +33,7 @@ public class Player : MonoBehaviour
         Vector3 force = horizontal * localRight + vertical * localForward;
         force.Normalize();
 
+        DirectionPointer.transform.LookAt(DirectionPointer.transform.position + force);
 
 
         // Create a ray from bottom of the object to the direction of force
@@ -55,7 +56,6 @@ public class Player : MonoBehaviour
                 force.Normalize();
             }
         }
-        DirectionPointer.transform.LookAt(DirectionPointer.transform.position + force);
 
         // Apply the force
         _rigidbody.AddForce(force * Speed);

@@ -4,29 +4,30 @@ using UnityEngine;
 
 public class Player : Unit
 {
-
+    private Rigidbody _rigidbody;
     // Use this for initialization
     void Start()
     {
-        _rigidbody = gameObject.GetComponentInChildren<Rigidbody>();
-        localRight = MainCamera.transform.right;
-        localForward = Vector3.Cross(MainCamera.transform.right, Vector3.up);
+        // Get Rigidbody
+        _rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        MoveUnit();
+        MoveUnit(_rigidbody);
     }
 
+    // This is the direction the unit will head to when GetMoveDirection().x > 0
     protected override void SetLocalRight()
     {
-        
+        localRight = MainCamera.transform.right;
     }
 
+    // This is the direction the unit will head to when GetMoveDirection().y > 0
     protected override void SetLocalForward()
     {
-        
+        localForward = Vector3.Cross(MainCamera.transform.right, Vector3.up);
     }
 
     protected override Vector2 GetMoveDirection()

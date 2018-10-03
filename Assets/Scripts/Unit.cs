@@ -4,28 +4,17 @@ using UnityEngine;
 
 public abstract class Unit : MonoBehaviour
 {
-    public Camera MainCamera;
     public float Speed;
     public GameObject DirectionPointer;
     
-    protected Vector3 _directionPointerOffset;
     protected Vector3 localRight;
     protected Vector3 localForward;
 
+    private Vector3 _lastForceDirection;
     // Use this for initialization
     void Start()
     {
         
-        _directionPointerOffset = DirectionPointer.transform.position - transform.position;
-        //localRight = MainCamera.transform.right;
-        //localForward = Vector3.Cross(MainCamera.transform.right, Vector3.up);
-
-        
-    }
-
-    void FixedUpdate()
-    {
-
     }
 
     protected void MoveUnit(Rigidbody rigidbody)
@@ -34,15 +23,18 @@ public abstract class Unit : MonoBehaviour
         SetLocalForward();
         //float horizontal = Input.GetAxis("Horizontal");
         //float vertical = Input.GetAxis("Vertical");
-        float horizontal = GetMoveDirection().x;
-        float vertical = GetMoveDirection().y;
+        Vector2 direction = GetMoveDirection();
+        direction.Normalize();
+        float horizontal = direction.x;
+        float vertical = direction.y;
 
 
         // Calculate the force from user input, and normalize it (making it just a direction)
         Vector3 force = horizontal * localRight + vertical * localForward;
         force.Normalize();
+        if (force.magnitude > 0.1f) _lastForceDirection = force;
 
-        DirectionPointer.transform.LookAt(DirectionPointer.transform.position + force);
+        DirectionPointer.transform.LookAt(DirectionPointer.transform.position + _lastForceDirection);
 
 
         // Create a ray from bottom of the object to the direction of force
@@ -69,7 +61,7 @@ public abstract class Unit : MonoBehaviour
         // Apply the force
         rigidbody.AddForce(force * Speed);
 
-        DirectionPointer.transform.position = transform.position + _directionPointerOffset;
+        //DirectionPointer.transform.position = transform.position + _directionPointerOffset;
     }
 
     // This is the direction the unit will head to when GetMoveDirection().x > 0

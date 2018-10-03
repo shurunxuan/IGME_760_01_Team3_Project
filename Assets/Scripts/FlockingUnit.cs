@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : Unit
+public class FlockingUnit : Unit
 {
-    public Camera MainCamera;
+    public GameObject HeadingToObject;
     private Rigidbody _rigidbody;
     // Use this for initialization
     void Start()
@@ -22,19 +22,18 @@ public class Player : Unit
     // This is the direction the unit will head to when GetMoveDirection().x > 0
     protected override void SetLocalRight()
     {
-        localRight = MainCamera.transform.right;
+        localRight = Vector3.right;
     }
 
     // This is the direction the unit will head to when GetMoveDirection().y > 0
     protected override void SetLocalForward()
     {
-        localForward = Vector3.Cross(MainCamera.transform.right, Vector3.up);
+        localForward = Vector3.forward;
     }
 
     protected override Vector2 GetMoveDirection()
     {
         // TODO: implement the algorithm
-        return new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        return new Vector2(HeadingToObject.transform.position.x - transform.position.x, HeadingToObject.transform.position.z - transform.position.z);
     }
-
 }

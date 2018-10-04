@@ -10,7 +10,7 @@ public abstract class Unit : MonoBehaviour
     protected Vector3 localRight;
     protected Vector3 localForward;
 
-    private Vector3 _lastForceDirection;
+    private Vector3 _lastForceDirection = Vector3.forward;
     // Use this for initialization
     void Start()
     {
@@ -24,15 +24,16 @@ public abstract class Unit : MonoBehaviour
         //float horizontal = Input.GetAxis("Horizontal");
         //float vertical = Input.GetAxis("Vertical");
         Vector2 direction = GetMoveDirection();
-        direction.Normalize();
+        // if (direction.magnitude > 1.0f) direction.Normalize();
         float horizontal = direction.x;
         float vertical = direction.y;
 
 
         // Calculate the force from user input, and normalize it (making it just a direction)
         Vector3 force = horizontal * localRight + vertical * localForward;
-        force.Normalize();
-        if (force.magnitude > 0.1f) _lastForceDirection = force;
+        if (force.magnitude > 1.0f) force.Normalize();
+        if (force.magnitude > 0.01f) _lastForceDirection = force.normalized;
+        else force = Vector3.zero;
 
         DirectionPointer.transform.LookAt(DirectionPointer.transform.position + _lastForceDirection);
 
@@ -69,4 +70,9 @@ public abstract class Unit : MonoBehaviour
     // This is the direction the unit will head to when GetMoveDirection().y > 0
     protected abstract void SetLocalForward();
     protected abstract Vector2 GetMoveDirection();
+
+    public Vector3 GetOrientation()
+    {
+        return _lastForceDirection;
+    }
 }

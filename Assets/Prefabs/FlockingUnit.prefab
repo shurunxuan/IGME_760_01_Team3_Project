@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4636431290529890}
   m_Layer: 1
   m_Name: DirectionPointer
-  m_TagString: Untagged
+  m_TagString: FlockingUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 136319234031901894}
   m_Layer: 1
   m_Name: Body
-  m_TagString: Player
+  m_TagString: FlockingUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 114587588283880326}
   m_Layer: 0
   m_Name: FlockingUnit
-  m_TagString: Untagged
+  m_TagString: FlockingUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

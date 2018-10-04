@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 136552850692803616}
   m_Layer: 1
   m_Name: Body
-  m_TagString: Player
+  m_TagString: AStarUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 114321734444022310}
   m_Layer: 0
   m_Name: AStarUnit
-  m_TagString: Untagged
+  m_TagString: AStarUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 4967723281000026}
   m_Layer: 1
   m_Name: DirectionPointer
-  m_TagString: Untagged
+  m_TagString: AStarUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

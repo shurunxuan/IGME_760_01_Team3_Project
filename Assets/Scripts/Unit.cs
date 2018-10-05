@@ -35,7 +35,7 @@ public abstract class Unit : MonoBehaviour
         if (force.magnitude > 0.01f) _lastForceDirection = force.normalized;
         else force = Vector3.zero;
 
-        DirectionPointer.transform.LookAt(DirectionPointer.transform.position + _lastForceDirection);
+        DirectionPointer.transform.LookAt(DirectionPointer.transform.position + rigidbody.velocity);
 
 
         // Create a ray from bottom of the object to the direction of force
@@ -60,7 +60,7 @@ public abstract class Unit : MonoBehaviour
         }
 
         // Apply the force
-        rigidbody.AddForce(force * Speed);
+        rigidbody.AddForce(force * Speed, ForceMode.Acceleration);
 
         //DirectionPointer.transform.position = transform.position + _directionPointerOffset;
     }

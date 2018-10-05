@@ -143,14 +143,15 @@ MonoBehaviour:
   SeparationRadius: 5
   CohesionRadius: 10
   VelocityMatchRadius: 15
-  SeparationWeight: 1
+  SeparationWeight: 2
   CohesionWeight: 1
-  VelocityMatchWeight: 2
+  VelocityMatchWeight: 0.5
   SeparationEnabled: 1
   CohesionEnabled: 1
-  VelocityMatchEnabled: 0
+  VelocityMatchEnabled: 1
   FlockingUnitTemplate: {fileID: 1885728284}
   UnitCount: 75
+  MaxAcceleration: 50
 --- !u!4 &353280084
 Transform:
   m_ObjectHideFlags: 0
@@ -385,7 +386,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.64
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -781,12 +782,32 @@ Prefab:
     - target: {fileID: 54852989234484896, guid: 7d66a25eb48b3734fb75eda327648a9e,
         type: 2}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 54852989234484896, guid: 7d66a25eb48b3734fb75eda327648a9e,
         type: 2}
       propertyPath: m_Constraints
       value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 54852989234484896, guid: 7d66a25eb48b3734fb75eda327648a9e,
+        type: 2}
+      propertyPath: m_Drag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114587588283880326, guid: 7d66a25eb48b3734fb75eda327648a9e,
+        type: 2}
+      propertyPath: RejectionFactor
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114587588283880326, guid: 7d66a25eb48b3734fb75eda327648a9e,
+        type: 2}
+      propertyPath: RejectionRadius
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114587588283880326, guid: 7d66a25eb48b3734fb75eda327648a9e,
+        type: 2}
+      propertyPath: DrawGizmo
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d66a25eb48b3734fb75eda327648a9e, type: 2}

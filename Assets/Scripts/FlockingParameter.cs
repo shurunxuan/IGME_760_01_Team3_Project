@@ -15,6 +15,7 @@ public class FlockingParameter : MonoBehaviour {
     public bool VelocityMatchEnabled;
     public GameObject FlockingUnitTemplate;
     public uint UnitCount;
+    public float MaxAcceleration;
 
     // Use this for initialization
     void Start () {
@@ -22,6 +23,10 @@ public class FlockingParameter : MonoBehaviour {
         {
             GameObject newUnit = Instantiate(FlockingUnitTemplate,
                 new Vector3(Random.Range(-25.0f, 25.0f), 1, Random.Range(-25.0f, 25.0f)), FlockingUnitTemplate.transform.rotation);
+            newUnit.name = FlockingUnitTemplate.name + i;
+            float randomAngle = Random.Range(0, Mathf.PI);
+            float randomSpeed = Random.Range(0, 30.0f);
+            newUnit.GetComponent<Rigidbody>().velocity = new Vector3(Mathf.Sin(randomAngle), 0, Mathf.Cos(randomAngle)) * randomSpeed;
             newUnit.SetActive(true);
         }
     }

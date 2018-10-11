@@ -35,7 +35,9 @@ public abstract class Unit : MonoBehaviour
         if (force.magnitude > 0.01f) _lastForceDirection = force.normalized;
         else force = Vector3.zero;
 
-        DirectionPointer.transform.LookAt(DirectionPointer.transform.position + rigidbody.velocity);
+        Vector3 lookAt = DirectionPointer.transform.position + rigidbody.velocity;
+        lookAt.y = DirectionPointer.transform.position.y;
+        DirectionPointer.transform.LookAt(lookAt);
 
 
         // Create a ray from bottom of the object to the direction of force

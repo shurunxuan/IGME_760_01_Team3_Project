@@ -10,6 +10,8 @@ public class FlockingUnit : Unit
     public float RejectionFactor;
     public float RejectionRadius;
 
+    public float MinVelocity;
+
     private Rigidbody _rigidbody;
     private FlockingParameter _parameters;
 
@@ -33,6 +35,10 @@ public class FlockingUnit : Unit
     void FixedUpdate()
     {
         MoveUnit(_rigidbody);
+        if (_rigidbody.velocity.magnitude < MinVelocity)
+        {
+            _rigidbody.velocity = _rigidbody.velocity.normalized * MinVelocity;
+        }
     }
 
     void OnDrawGizmos()

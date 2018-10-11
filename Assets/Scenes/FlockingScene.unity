@@ -756,59 +756,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1859323603177556, guid: 7d66a25eb48b3734fb75eda327648a9e, type: 2}
-      propertyPath: m_TagString
-      value: FlockingUnit
-      objectReference: {fileID: 0}
     - target: {fileID: 114587588283880326, guid: 7d66a25eb48b3734fb75eda327648a9e,
         type: 2}
       propertyPath: ParameterController
       value: 
       objectReference: {fileID: 353280082}
-    - target: {fileID: 1899139384856804, guid: 7d66a25eb48b3734fb75eda327648a9e, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114587588283880326, guid: 7d66a25eb48b3734fb75eda327648a9e,
-        type: 2}
-      propertyPath: Speed
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 136319234031901894, guid: 7d66a25eb48b3734fb75eda327648a9e,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 54852989234484896, guid: 7d66a25eb48b3734fb75eda327648a9e,
-        type: 2}
-      propertyPath: m_UseGravity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 54852989234484896, guid: 7d66a25eb48b3734fb75eda327648a9e,
-        type: 2}
-      propertyPath: m_Constraints
-      value: 84
-      objectReference: {fileID: 0}
-    - target: {fileID: 54852989234484896, guid: 7d66a25eb48b3734fb75eda327648a9e,
-        type: 2}
-      propertyPath: m_Drag
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114587588283880326, guid: 7d66a25eb48b3734fb75eda327648a9e,
-        type: 2}
-      propertyPath: RejectionFactor
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114587588283880326, guid: 7d66a25eb48b3734fb75eda327648a9e,
-        type: 2}
-      propertyPath: RejectionRadius
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114587588283880326, guid: 7d66a25eb48b3734fb75eda327648a9e,
-        type: 2}
-      propertyPath: DrawGizmo
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d66a25eb48b3734fb75eda327648a9e, type: 2}
   m_IsPrefabAsset: 0

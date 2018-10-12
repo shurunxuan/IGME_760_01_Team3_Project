@@ -15,10 +15,15 @@ public class AStarGridLayout : MonoBehaviour
     private float _nodeZWidth;
     private bool _drawGizmos = false;
 
+    public int MaxSize
+    {
+        get { return GridSize * GridSize; }
+    }
+
     // Use this for initialization
     void Awake()
     {
-        //_drawGizmos = true;
+        _drawGizmos = true;
         _terrainSize = MainTerrain.terrainData.size;
 
         _nodeXWidth = (_terrainSize.x / GridSize);

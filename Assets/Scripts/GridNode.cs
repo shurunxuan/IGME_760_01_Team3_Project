@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GridNode
+public class GridNode : IHeapItem<GridNode>
 {
 
     public Vector3 PositionInWorld;
@@ -25,5 +25,18 @@ public class GridNode
         PositionInWorld = position;
         X = x;
         Y = y;
+    }
+
+    public int HeapIndex { get; set; }
+
+    public int CompareTo(GridNode node)
+    {
+        var compare = FCost.CompareTo(node.FCost);
+        if (compare == 0)
+        {
+            compare = HCost.CompareTo(node.HCost);
+        }
+
+        return -compare;
     }
 }

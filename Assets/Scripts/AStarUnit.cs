@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using UnityEngine;
 
@@ -33,16 +34,17 @@ public class AStarUnit : Unit
     // Update is called once per frame
     void Update()
     {
-        if (_pathReady)
-        {
+        //if (_pathReady)
+        //{
 
-        }
-        else
+        //}
+        //else
         {
-            var currentTime = System.DateTime.Now.Millisecond;
+            Stopwatch timer = new Stopwatch();
+            timer.Start();
             FindPath(TargetPosition.transform.position);
-            var endTime = System.DateTime.Now.Millisecond;
-            Debug.Log(endTime - currentTime);
+            timer.Stop();
+            UnityEngine.Debug.Log(timer.ElapsedMilliseconds);
         }
     }
 
@@ -81,24 +83,13 @@ public class AStarUnit : Unit
         GridNode startNode = _grid.GetNodeFromPosition(transform.position);
         GridNode endNode = _grid.GetNodeFromPosition(targetPosition);
 
-        List<GridNode> openSet = new List<GridNode>();
+        Heap<GridNode> openSet = new Heap<GridNode>(_grid.MaxSize);
         HashSet<GridNode> closeSet = new HashSet<GridNode>();
         openSet.Add(startNode);
 
         while (openSet.Count > 0)
         {
-            GridNode curNode = openSet[0];
-
-            for (int i = 0, max = openSet.Count; i < max; i++)
-            {
-                if (openSet[i].FCost <= curNode.FCost &&
-                    openSet[i].HCost < curNode.HCost)
-                {
-                    curNode = openSet[i];
-                }
-            }
-
-            openSet.Remove(curNode);
+            GridNode curNode = openSet.RemoveFirst();
             closeSet.Add(curNode);
 
             // Found target node

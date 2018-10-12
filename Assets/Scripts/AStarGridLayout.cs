@@ -8,7 +8,6 @@ public class AStarGridLayout : MonoBehaviour
 
     public Terrain MainTerrain;
     public int GridSize;
-    public GameObject Unit;
 
     private Vector3 _terrainSize;
     private GridNode[,] _grid;
@@ -19,7 +18,7 @@ public class AStarGridLayout : MonoBehaviour
     // Use this for initialization
     void Awake()
     {
-        _drawGizmos = true;
+        //_drawGizmos = true;
         _terrainSize = MainTerrain.terrainData.size;
 
         _nodeXWidth = (_terrainSize.x / GridSize);
@@ -97,8 +96,6 @@ public class AStarGridLayout : MonoBehaviour
                 }
             }
         }
-        Gizmos.color = Color.red;
-        Gizmos.DrawSphere(GetNodeFromPosition(Unit.transform.position).PositionInWorld + Vector3.up * 2.0f, 1.0f);
     }
 
     // Update is called once per frame
@@ -117,16 +114,14 @@ public class AStarGridLayout : MonoBehaviour
     public List<GridNode> GetNeighborhood(GridNode node)
     {
         List<GridNode> list = new List<GridNode>();
-        for (int i = -1; i <= 1; i++)
+        for (int i = -1; i <= 1; ++i)
         {
-            for (int j = -1; j <= 1; j++)
+            for (int j = -1; j <= 1; ++j)
             {
-                // 如果是自己，则跳过
                 if (i == 0 && j == 0)
                     continue;
                 int x = node.X + i;
                 int y = node.Y + j;
-                // 判断是否越界，如果没有，加到列表中
                 if (x < GridSize && x >= 0 && y < GridSize && y >= 0)
                     list.Add(_grid[x, y]);
             }

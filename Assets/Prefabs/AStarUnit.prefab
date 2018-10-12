@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33556660274760270}
   - component: {fileID: 23146132757128410}
   - component: {fileID: 136552850692803616}
-  m_Layer: 1
+  m_Layer: 2
   m_Name: Body
   m_TagString: AStarUnit
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 4597646693199976}
   - component: {fileID: 33162454486277364}
   - component: {fileID: 23957641298852472}
-  m_Layer: 1
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 4328315472780868}
   - component: {fileID: 54224329492005792}
   - component: {fileID: 114321734444022310}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: AStarUnit
   m_TagString: AStarUnit
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4967723281000026}
-  m_Layer: 1
+  m_Layer: 2
   m_Name: DirectionPointer
   m_TagString: AStarUnit
   m_Icon: {fileID: 0}
@@ -245,6 +245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 12
   DirectionPointer: {fileID: 1775941781667562}
+  GridLayout: {fileID: 0}
 --- !u!136 &136552850692803616
 CapsuleCollider:
   m_ObjectHideFlags: 1

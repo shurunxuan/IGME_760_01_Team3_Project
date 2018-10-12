@@ -11,10 +11,13 @@ public class GridNode
     public int Y;
     public GridNode Parent;
 
-    public int gCost;
-    public int hCost;
+    public int GCost;
+    public int HCost;
 
-    public int walkstatus;
+    public int FCost
+    {
+        get { return GCost + HCost; }
+    }
 
     public GridNode(bool isWalkable, Vector3 position, int x, int y)
     {

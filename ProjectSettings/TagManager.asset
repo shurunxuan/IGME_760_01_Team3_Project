@@ -6,8 +6,7 @@ TagManager:
   tags:
   - FlockingUnit
   - AStarUnit
-  - Terrain
-  - Obstacle
+  - Test
   layers:
   - Default
   - TransparentFX

@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4636431290529890}
-  m_Layer: 1
+  m_Layer: 2
   m_Name: DirectionPointer
   m_TagString: FlockingUnit
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   - component: {fileID: 4622504367033554}
   - component: {fileID: 33084526591623356}
   - component: {fileID: 23995131891034134}
-  m_Layer: 1
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   - component: {fileID: 33703919797601766}
   - component: {fileID: 23419550851935788}
   - component: {fileID: 136319234031901894}
-  m_Layer: 1
+  m_Layer: 2
   m_Name: Body
   m_TagString: FlockingUnit
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 4414099554806160}
   - component: {fileID: 54852989234484896}
   - component: {fileID: 114587588283880326}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: FlockingUnit
   m_TagString: FlockingUnit
   m_Icon: {fileID: 0}

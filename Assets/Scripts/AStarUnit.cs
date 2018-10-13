@@ -1,8 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Threading.Tasks;
+using TMPro.EditorUtilities;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
 public class AStarUnit : Unit
 {
@@ -16,14 +20,21 @@ public class AStarUnit : Unit
     private bool _pathReady;
 
     private List<GridNode> _path;
+
+    private Vector3 _currentPosition;
+    private Vector3 _targetPosition;
+
+    private bool _findPathRunning;
     // Use this for initialization
     void Start()
     {
         // Get Rigidbody
         _rigidbody = GetComponent<Rigidbody>();
+        _findPathRunning = false;
         _pathReady = false;
         _path = new List<GridNode>();
         _grid = GridLayout.GetComponent<AStarGridLayout>();
+        _targetPosition = transform.position;
     }
 
     void FixedUpdate()
@@ -34,30 +45,31 @@ public class AStarUnit : Unit
     // Update is called once per frame
     void Update()
     {
-        //if (_pathReady)
-        //{
-
-        //}
-        //else
+        _currentPosition = transform.position;
+        if (Input.GetMouseButtonDown(0))
         {
-            Stopwatch timer = new Stopwatch();
-            timer.Start();
-            FindPath(TargetPosition.transform.position);
-            timer.Stop();
-            UnityEngine.Debug.Log(timer.ElapsedMilliseconds);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray.origin, ray.direction, out hit, Camera.main.farClipPlane))
+            {
+                if (hit.collider.gameObject.CompareTag("Terrain"))
+                {
+                    _targetPosition = hit.point;
+                    _pathReady = false;
+                }
+            }
         }
+
+        if (!_pathReady)
+            RunFindPath();
     }
 
     void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        if (_pathReady)
-        {
+        if (_path != null)
             foreach (var gridNode in _path)
-            {
                 Gizmos.DrawCube(gridNode.PositionInWorld, Vector3.one * 0.5f);
-            }
-        }
     }
 
     // This is the direction the unit will head to when GetMoveDirection().x > 0
@@ -74,14 +86,22 @@ public class AStarUnit : Unit
 
     protected override Vector2 GetMoveDirection()
     {
-        // TODO: implement the algorithm
-        return new Vector2(0, 0);
+        if (_path == null || _path.Count == 0 || !_pathReady)
+            return new Vector2(0, 0);
+
+        GridNode node = _path[0];
+        Vector3 diff = node.PositionInWorld - transform.position;
+        diff.y = 0;
+        if (diff.magnitude > _grid.NodeWidth * 4.0f) RunFindPath();
+        if (diff.magnitude < _grid.NodeWidth * 2.0f) _path.RemoveAt(0);
+        return new Vector2(diff.x, diff.z);
     }
 
-    void FindPath(Vector3 targetPosition)
+    void FindPath()
     {
-        GridNode startNode = _grid.GetNodeFromPosition(transform.position);
-        GridNode endNode = _grid.GetNodeFromPosition(targetPosition);
+        GridNode startNode = _grid.GetNodeFromPosition(_currentPosition);
+        GridNode endNode = _grid.GetNodeFromPosition(_targetPosition);
+
 
         Heap<GridNode> openSet = new Heap<GridNode>(_grid.MaxSize);
         HashSet<GridNode> closeSet = new HashSet<GridNode>();
@@ -102,26 +122,22 @@ public class AStarUnit : Unit
             // Find a node with minimal cost
             foreach (var item in _grid.GetNeighborhood(curNode))
             {
-                if (!item.IsWalkable || closeSet.Contains(item))
-                {
-                    continue;
-                }
-                int newCost = curNode.GCost + getDistanceNodes(curNode, item);
+                if (!item.IsWalkable || closeSet.Contains(item)) continue;
+
+                int newCost = curNode.GCost + _grid.GetDistanceNodes(curNode, item);
                 if (newCost < item.GCost || !openSet.Contains(item))
                 {
                     item.GCost = newCost;
-                    item.HCost = getDistanceNodes(item, endNode);
+                    item.HCost = _grid.GetDistanceNodes(item, endNode);
                     item.Parent = curNode;
                     if (!openSet.Contains(item))
-                    {
                         openSet.Add(item);
-                    }
                 }
             }
         }
 
         GeneratePath(startNode, null);
-        
+
     }
 
     void GeneratePath(GridNode startNode, GridNode endNode)
@@ -137,31 +153,19 @@ public class AStarUnit : Unit
             }
             path.Reverse();
         }
-        _pathReady = true;
         _path = path;
+        _pathReady = true;
+        _findPathRunning = false;
     }
 
-    int getDistanceNodes(GridNode a, GridNode b)
+    Task RunFindPath()
     {
-        //int cntX = Mathf.Abs(a.X - b.X);
-        //int cntY = Mathf.Abs(a.Y - b.Y);
+        if (_findPathRunning) return null;
+        Task t = new Task(FindPath);
+        _findPathRunning = true;
+        t.Start();
 
-        ////if (cntX > cntY)
-        ////{
-        ////    return 14 * cntY + 10 * (cntX - cntY);
-        ////}
-        ////else
-        ////{
-        ////    return 14 * cntX + 10 * (cntY - cntX);
-        ////}
-
-        //return cntX + cntY;
-
-        Vector3 diff = b.PositionInWorld - a.PositionInWorld;
-        float horizontal = Mathf.Sqrt(diff.x * diff.x + diff.z * diff.z);
-        float vertical = diff.y;
-        return Mathf.RoundToInt(100 * horizontal + vertical * (vertical > 0 ? 200 : 0));
+        return t;
     }
-
 
 }

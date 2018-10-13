@@ -2366,7 +2366,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4328315472780868, guid: 7ea41cf18ed45bb4688e6aaa5c6a9680, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 89.9
+      value: 8.6
       objectReference: {fileID: 0}
     - target: {fileID: 4328315472780868, guid: 7ea41cf18ed45bb4688e6aaa5c6a9680, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2374,7 +2374,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4328315472780868, guid: 7ea41cf18ed45bb4688e6aaa5c6a9680, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 28.7
+      value: 27.5
       objectReference: {fileID: 0}
     - target: {fileID: 4328315472780868, guid: 7ea41cf18ed45bb4688e6aaa5c6a9680, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2644,7 +2644,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &149941002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36691,31 +36691,6 @@ Prefab:
       propertyPath: ParameterController
       value: 
       objectReference: {fileID: 149941001}
-    - target: {fileID: 1899139384856804, guid: 7d66a25eb48b3734fb75eda327648a9e, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114587588283880326, guid: 7d66a25eb48b3734fb75eda327648a9e,
-        type: 2}
-      propertyPath: MinVelocity
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1899139384856804, guid: 7d66a25eb48b3734fb75eda327648a9e, type: 2}
-      propertyPath: m_Layer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1859323603177556, guid: 7d66a25eb48b3734fb75eda327648a9e, type: 2}
-      propertyPath: m_Layer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1315380449883386, guid: 7d66a25eb48b3734fb75eda327648a9e, type: 2}
-      propertyPath: m_Layer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1615697597543162, guid: 7d66a25eb48b3734fb75eda327648a9e, type: 2}
-      propertyPath: m_Layer
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d66a25eb48b3734fb75eda327648a9e, type: 2}
   m_IsPrefabAsset: 0

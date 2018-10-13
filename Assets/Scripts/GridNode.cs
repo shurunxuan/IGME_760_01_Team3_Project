@@ -14,10 +14,8 @@ public class GridNode : IHeapItem<GridNode>
     public int GCost;
     public int HCost;
 
-    public int FCost
-    {
-        get { return GCost + HCost; }
-    }
+
+    public int FCost => GCost + HCost;
 
     public GridNode(bool isWalkable, Vector3 position, int x, int y)
     {

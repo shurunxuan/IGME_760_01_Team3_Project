@@ -21,7 +21,8 @@ GameObject:
   - component: {fileID: 4700622905034826}
   - component: {fileID: 54259361048262398}
   - component: {fileID: 114793226847757846}
-  m_Layer: 0
+  - component: {fileID: 114807939972338412}
+  m_Layer: 2
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -39,7 +40,7 @@ GameObject:
   - component: {fileID: 33728130217241922}
   - component: {fileID: 23840937188802204}
   - component: {fileID: 136456806029167742}
-  m_Layer: 1
+  m_Layer: 2
   m_Name: Body
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -54,7 +55,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4513342428877412}
-  m_Layer: 1
+  m_Layer: 2
   m_Name: DirectionPointer
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -71,7 +72,7 @@ GameObject:
   - component: {fileID: 4583919138793876}
   - component: {fileID: 33153978079781006}
   - component: {fileID: 23242453769130122}
-  m_Layer: 1
+  m_Layer: 2
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +126,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1070840866393950}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 94.36, y: 23.92, z: 28.99}
+  m_LocalPosition: {x: 92.71, y: 23.92, z: 28.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4037610519593426}
@@ -246,6 +247,17 @@ MonoBehaviour:
   Speed: 12
   DirectionPointer: {fileID: 1667581587349402}
   MainCamera: {fileID: 0}
+--- !u!114 &114807939972338412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1070840866393950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 696ac75277a61ae4092bb95c5c92341d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &136456806029167742
 CapsuleCollider:
   m_ObjectHideFlags: 1

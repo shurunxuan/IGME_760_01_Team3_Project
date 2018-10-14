@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class FlockingUnit : Unit
@@ -19,16 +18,22 @@ public class FlockingUnit : Unit
     private Vector3 _cohesionCenter;
     private Vector3 _velocityAverage;
 
+    private Vector2 _lastDirection;
+
     private List<GameObject> _separationNeighborhood;
     private List<GameObject> _cohesionNeighborhood;
     private List<GameObject> _velocityMatchNeighborhood;
 
+    private int _requestCount;
     // Use this for initialization
     void Start()
     {
         // Get Rigidbody
         _rigidbody = GetComponent<Rigidbody>();
         _parameters = ParameterController.GetComponent<FlockingParameter>();
+        useVelocityAsDirection = true;
+        _requestCount = 0;
+        _lastDirection = Vector2.zero;
     }
 
     // Update is called once per frame
@@ -46,19 +51,19 @@ public class FlockingUnit : Unit
         if (!DrawGizmo) return;
 
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, _parameters.SeparationRadius);
+        Gizmos.DrawWireSphere(transform.position, float.Parse(_parameters.SeparationRadius));
         //Gizmos.DrawSphere(_separationCenter, 0.3f);
         foreach (var o in _separationNeighborhood)
             Gizmos.DrawSphere(o.transform.position + Vector3.up * 1.15f, 0.3f);
 
         Gizmos.color = Color.blue;
-        Gizmos.DrawWireSphere(transform.position, _parameters.CohesionRadius);
+        Gizmos.DrawWireSphere(transform.position, float.Parse(_parameters.CohesionRadius));
         //Gizmos.DrawSphere(_cohesionCenter, 0.3f);
         foreach (var o in _cohesionNeighborhood)
             Gizmos.DrawSphere(o.transform.position + Vector3.up * 1.75f, 0.3f);
 
         Gizmos.color = Color.green;
-        Gizmos.DrawWireSphere(transform.position, _parameters.VelocityMatchRadius);
+        Gizmos.DrawWireSphere(transform.position, float.Parse(_parameters.VelocityMatchRadius));
         //Gizmos.DrawLine(transform.position, transform.position + _velocityAverage);
         foreach (var o in _velocityMatchNeighborhood)
             Gizmos.DrawSphere(o.transform.position + Vector3.up * 2.35f, 0.3f);
@@ -79,9 +84,13 @@ public class FlockingUnit : Unit
     protected override Vector2 GetMoveDirection()
     {
         // TODO: implement the algorithm
-        _separationNeighborhood = GetNeighborhood(_parameters.SeparationRadius, -1.0f);
-        _cohesionNeighborhood = GetNeighborhood(_parameters.CohesionRadius, 0.0f);
-        _velocityMatchNeighborhood = GetNeighborhood(_parameters.VelocityMatchRadius, 0.0f);
+        ++_requestCount;
+        if (_requestCount != 10)
+            return _lastDirection;
+        _requestCount = 0;
+        _separationNeighborhood = GetNeighborhood(float.Parse(_parameters.SeparationRadius), -1.0f);
+        _cohesionNeighborhood = GetNeighborhood(float.Parse(_parameters.CohesionRadius), 0.0f);
+        _velocityMatchNeighborhood = GetNeighborhood(float.Parse(_parameters.VelocityMatchRadius), 0.0f);
 
 
         _separationCenter = GetNeighborhoodCenter(_separationNeighborhood);
@@ -108,16 +117,16 @@ public class FlockingUnit : Unit
             rejectionForce -= RejectionFactor / rad / rad * rejectionDirection.normalized;
         }
 
-        Vector3 finalSteer = separationSteer * (_parameters.SeparationEnabled ? _parameters.SeparationWeight : 0) +
-                             cohesionSteer * (_parameters.CohesionEnabled ? _parameters.CohesionWeight : 0) +
-                             velocitySteer * (_parameters.VelocityMatchEnabled ? _parameters.VelocityMatchWeight : 0) +
+        Vector3 finalSteer = separationSteer * (_parameters.SeparationEnabled ? float.Parse(_parameters.SeparationWeight) : 0) +
+                             cohesionSteer * (_parameters.CohesionEnabled ? float.Parse(_parameters.CohesionWeight) : 0) +
+                             velocitySteer * (_parameters.VelocityMatchEnabled ? float.Parse(_parameters.VelocityMatchWeight) : 0) +
                              rejectionForce;
 
         //finalSteer /= _parameters.SeparationWeight + _parameters.CohesionWeight + _parameters.VelocityMatchWeight;
         //finalSteer.Normalize();
 
         Vector2 direction = new Vector2(finalSteer.x, finalSteer.z);
-
+        _lastDirection = direction;
         return direction;
     }
 

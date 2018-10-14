@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -13,7 +12,7 @@ public class AStarGridLayout : MonoBehaviour
     private GridNode[,] _grid;
     private float _nodeXWidth;
     private float _nodeZWidth;
-    private bool _drawGizmos = false;
+    private bool _drawGizmos;
     private Vector3 _terrainPosition;
 
     public int MaxSize => GridSize * GridSize;

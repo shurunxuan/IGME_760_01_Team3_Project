@@ -1,17 +1,14 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using TMPro.EditorUtilities;
 using UnityEngine;
-using Debug = UnityEngine.Debug;
 
 public class AStarUnit : Unit
 {
     public GameObject GridLayout;
     public GameObject TargetPosition;
+
+    public GameObject PathCube;
+    private List<GameObject> _pathCubes;
 
 
     private AStarGridLayout _grid;
@@ -35,6 +32,9 @@ public class AStarUnit : Unit
         _path = new List<GridNode>();
         _grid = GridLayout.GetComponent<AStarGridLayout>();
         _targetPosition = transform.position;
+        useVelocityAsDirection = false;
+        PathCube.transform.localScale = Vector3.one * 0.5f;
+        _pathCubes = new List<GameObject>();
     }
 
     void FixedUpdate()
@@ -57,6 +57,30 @@ public class AStarUnit : Unit
                     _targetPosition = hit.point;
                     _pathReady = false;
                 }
+            }
+        }
+
+        for (int i = 0; i < Mathf.Min(_path.Count, _pathCubes.Count); ++i)
+        {
+            _pathCubes[i].transform.position = _path[i].PositionInWorld;
+        }
+
+        if (_pathCubes.Count > _path.Count)
+        {
+            for (int i = _path.Count; i < _pathCubes.Count; ++i)
+            {
+                Object.Destroy(_pathCubes[i]);
+            }
+            _pathCubes.RemoveRange(_path.Count, _pathCubes.Count - _path.Count);
+        }
+        else
+        {
+            for (int i = _pathCubes.Count; i < _path.Count; ++i)
+            {
+                GameObject newCube = Instantiate(PathCube);
+                newCube.transform.position = _path[i].PositionInWorld;
+                newCube.SetActive(true);
+                _pathCubes.Add(newCube);
             }
         }
 

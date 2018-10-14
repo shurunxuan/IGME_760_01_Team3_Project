@@ -56,6 +56,7 @@ GameObject:
   - component: {fileID: 4328315472780868}
   - component: {fileID: 54224329492005792}
   - component: {fileID: 114321734444022310}
+  - component: {fileID: 114794948462844248}
   m_Layer: 2
   m_Name: AStarUnit
   m_TagString: AStarUnit
@@ -85,7 +86,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1762749717048386}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 83.3, y: 23.92, z: 26.19}
+  m_LocalPosition: {x: 8.6, y: 23.92, z: 27.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4551382917934436}
@@ -246,6 +247,20 @@ MonoBehaviour:
   Speed: 12
   DirectionPointer: {fileID: 1775941781667562}
   GridLayout: {fileID: 0}
+  TargetPosition: {fileID: 0}
+  PathCube: {fileID: 0}
+--- !u!114 &114794948462844248
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1762749717048386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 696ac75277a61ae4092bb95c5c92341d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RespawnTriggered: 0
 --- !u!136 &136552850692803616
 CapsuleCollider:
   m_ObjectHideFlags: 1

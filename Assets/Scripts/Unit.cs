@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public abstract class Unit : MonoBehaviour
 {
@@ -9,6 +7,8 @@ public abstract class Unit : MonoBehaviour
     
     protected Vector3 localRight;
     protected Vector3 localForward;
+
+    protected bool useVelocityAsDirection;
 
     private Vector3 _lastForceDirection = Vector3.forward;
     // Use this for initialization
@@ -33,9 +33,11 @@ public abstract class Unit : MonoBehaviour
         Vector3 force = horizontal * localRight + vertical * localForward;
         if (force.magnitude > 1.0f) force.Normalize();
         if (force.magnitude > 0.01f) _lastForceDirection = force.normalized;
+        
         else force = Vector3.zero;
 
-        Vector3 lookAt = DirectionPointer.transform.position + rigidbody.velocity;
+        Vector3 lookAt = DirectionPointer.transform.position +
+                         (useVelocityAsDirection ? rigidbody.velocity : _lastForceDirection);
         lookAt.y = DirectionPointer.transform.position.y;
         DirectionPointer.transform.LookAt(lookAt);
 
@@ -57,6 +59,7 @@ public abstract class Unit : MonoBehaviour
                 rigidbody.useGravity = false;
                 // Make the force go through the hit point (and normalize it)
                 force = raycastHit.point - originPoint;
+                force.y *= 2;
                 force.Normalize();
             }
         }

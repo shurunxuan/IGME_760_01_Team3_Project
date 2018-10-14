@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Player : Unit
 {
@@ -11,6 +9,7 @@ public class Player : Unit
     {
         // Get Rigidbody
         _rigidbody = GetComponent<Rigidbody>();
+        useVelocityAsDirection = false;
     }
 
     // Update is called once per frame

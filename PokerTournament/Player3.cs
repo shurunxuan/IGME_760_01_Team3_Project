@@ -29,7 +29,7 @@ namespace PokerTournament
         }
 
         // TODO: Delete this. This is copied from Human.cs
-        private PlayerAction HumanBetting(List<PlayerAction> actions, Card[] hand)
+        public override PlayerAction BettingRound1(List<PlayerAction> actions, Card[] hand)
         {
             // list the hand
             ListTheHand(hand);
@@ -37,10 +37,149 @@ namespace PokerTournament
             // select an action
             string actionSelection = "";
             PlayerAction pa = null;
+
+            float hS = HandStrength(hand);
+            float maxBet = this.Money * hS;
+
             do
             {
                 Console.WriteLine("Select an action:\n1 - bet\n2 - raise\n3 - call\n4 - check\n5 - fold");
-                actionSelection = Console.ReadLine();
+
+                hS = HandStrength(hand);
+
+                var hasP = HasPairs(hand);
+                var hasF = HasFlush(hand);
+                var longS = LongestStraight(hand);
+
+                float[] evaluation = new float[5];
+                // Evaluate A Card
+                for (int i = 0; i < hand.Length; ++i)
+                {
+                    evaluation[i] = 11.27f * hasP[i] + 2.64f * hasF[i] +
+                                    0.86f * longS[i];
+                }
+
+                if (actions.Count == 0)
+                {
+                    if (hS < 0.1 && evaluation.Average() < 11.3f)
+                    {
+                        actionSelection = "5";
+                    }
+                    else if (hS > 0.95f)
+                    {
+                        actionSelection = "1";
+                    }
+                    else
+                    {
+                        actionSelection = "4";
+                    }
+                }
+                else
+                {
+
+                    previousActions = actions;
+                    PlayerAction prev = previousActions[previousActions.Count - 1];
+
+                    if (prev.ActionName == "check")
+                    {
+                        if (hS >= 0.4f)
+                        {
+                            actionSelection = "1";
+                        }
+                        if (hS < 0.4f)
+                        {
+                            actionSelection = "4";
+                        }
+                    }
+
+                    if (prev.ActionName == "bet")
+                    {
+                        int bet = prev.Amount;
+
+                        if (hS == 1.0f)
+                        {
+                            actionSelection = "1";
+                        }
+                        if (hS > 0.95f)
+                        {
+                            actionSelection = "1";
+                        }
+                        if (hS >= 0.3f && hS <= 0.95f && bet < maxBet)
+                        {
+                            actionSelection = "3";
+                        }
+                        else if (bet > maxBet)
+                        {
+                            actionSelection = "5";
+                        }
+                        else
+                        {
+                            actionSelection = "3";
+                        }
+                        if (hS <= 0.1f)
+                        {
+                            actionSelection = "5";
+                        }
+                        else if (hS < 0.3f)
+                        {
+                            actionSelection = "1";
+                        }
+                    }
+
+                    if (prev.ActionName == "raise")
+                    {
+                        int bet = prev.Amount;
+
+                        // call, raise, or bet
+                        if (hS == 1.0f)
+                        {
+                            actionSelection = "1";
+                        }
+                        if (hS >= 0.95f && bet <= maxBet)
+                        {
+                            actionSelection = "2";
+                        }
+                        else if (hS >= 0.7f && bet <= maxBet)
+                        {
+                            actionSelection = "3";
+                        }
+                        else if (hS < 0.7f && hS > 0.1f)
+                        {
+                            actionSelection = "1";
+                        }
+                        if (hS <= 0.1f)
+                        {
+                            actionSelection = "5";
+                        }
+
+                    }
+
+                    if (prev.ActionName == "call")
+                    {
+                        // should never happen?
+                        actionSelection = "3";
+                    }
+
+                    if (prev.ActionName == "draw" || prev.ActionName == "stand pat")
+                    {
+                        if (hS == 1.0f)
+                        {
+                            actionSelection = "1";
+                        }
+                        else if (hS >= 0.95f)
+                        {
+                            actionSelection = "1";
+                        }
+                        else
+                        {
+                            actionSelection = "4";
+                        }
+                    }
+                }
+                
+
+
+                //actionSelection = Console.ReadLine();
 
                 // get amount if appropriate
                 int amount = 0;
@@ -52,12 +191,35 @@ namespace PokerTournament
                         if (actionSelection[0] == '1') // bet
                         {
                             Console.Write("Amount to bet? ");
-                            amtText = Console.ReadLine();
+                            //amtText = Console.ReadLine();
+                            if(hS == 1.0f)
+                            {
+                                amtText = this.Money.ToString();
+                            } else if (hS >= 0.95)
+                            {
+                                amtText = ((int)(maxBet * hS)).ToString();
+                            } else
+                            {
+                                amtText = "1";
+                            }
                         }
                         else if (actionSelection[0] == '2') // raise
                         {
                             Console.Write("Amount to raise? ");
-                            amtText = Console.ReadLine();
+                            if (hS == 1.0f)
+                            {
+                                amtText = this.Money.ToString();
+                            }
+                            else if (hS >= 0.95)
+                            {
+                                amtText = ((int)maxBet * hS - previousActions[actions.Count - 1].Amount).ToString();
+                            }
+                            else
+                            {
+                                amtText = "1";
+                            }
+                            
+                            //amtText = Console.ReadLine();
                         }
                         // convert the string to an int
                         int tempAmt = 0;
@@ -98,7 +260,7 @@ namespace PokerTournament
             return pa;
         }
 
-        public override PlayerAction BettingRound1(List<PlayerAction> actions, Card[] hand)
+ /*       public override PlayerAction BettingRound1(List<PlayerAction> actions, Card[] hand)
         {
             // Remember previous actions
             previousActions = actions;
@@ -109,11 +271,16 @@ namespace PokerTournament
             if (Dealer)
                 return new PlayerAction(Name, "Bet1", "call", 0);
             return new PlayerAction(Name, "Bet1", "bet", 10);
-        }
+        }*/
 
         public override PlayerAction BettingRound2(List<PlayerAction> actions, Card[] hand)
         {
-            // Remember previous actions
+            PlayerAction pa1 = BettingRound1(actions, hand);
+
+            // create a new PlayerAction object
+            return new PlayerAction(pa1.Name, "Bet2", pa1.ActionName, pa1.Amount);
+
+ /*           // Remember previous actions
             previousActions = actions;
 
             // TODO: Implement Betting Round 2 Algorithm
@@ -121,11 +288,16 @@ namespace PokerTournament
             //return new PlayerAction(pa1.Name, "Bet2", pa1.ActionName, pa1.Amount);
             if (Dealer)
                 return new PlayerAction(Name, "Bet2", "call", 0);
-            return new PlayerAction(Name, "Bet2", "bet", 10);
+            return new PlayerAction(Name, "Bet2", "bet", 10);*/
         }
 
         public override PlayerAction Draw(Card[] hand)
         {
+            ListTheHand(hand);
+            
+
+            PlayerAction pa = null;
+
             var hasP = HasPairs(hand);
             var hasF = HasFlush(hand);
             var longS = LongestStraight(hand);
@@ -138,32 +310,67 @@ namespace PokerTournament
                                 0.86f * longS[i];
             }
 
+            int cardsToDelete = 0;
+
             // Remove Cards
-            int cardsRemoved = 0;
-            Console.BackgroundColor = ConsoleColor.DarkRed;
-            Console.WriteLine("----------AI Player Debug Log----------");
+            /*            int cardsRemoved = 0;
+                        Console.BackgroundColor = ConsoleColor.DarkRed;
+                        Console.WriteLine("----------AI Player Debug Log----------");
+                        for (int i = 0; i < hand.Length; ++i)
+                        {
+                            Console.Write(hand[i].ToString() + "\t");
+                            Console.Write(hasP[i] + "\t");
+                            Console.Write(hasF[i] + "\t");
+                            Console.Write(longS[i] + "\t");
+
+                            if (evaluation[i] < evaluation.Average())
+                            {
+                                Console.WriteLine("Removed");
+                                hand[i] = null;
+                                ++cardsRemoved;
+                            }
+                            else
+                            {
+                                Console.WriteLine("       ");
+                            }
+                        }
+                        Console.WriteLine("----------AI Player Debug Log----------");
+                        Console.BackgroundColor = ConsoleColor.Black;
+            */
             for (int i = 0; i < hand.Length; ++i)
             {
-                Console.Write(hand[i].ToString() + "\t");
-                Console.Write(hasP[i] + "\t");
-                Console.Write(hasF[i] + "\t");
-                Console.Write(longS[i] + "\t");
+                //Console.Write(hand[i].ToString() + "\t");
+                //Console.Write(hasP[i] + "\t");
+                //Console.Write(hasF[i] + "\t");
+                //Console.Write(longS[i] + "\t");
 
                 if (evaluation[i] < evaluation.Average())
                 {
-                    Console.WriteLine("Removed");
+                    //Console.WriteLine("Removed");
                     hand[i] = null;
-                    ++cardsRemoved;
-                }
-                else
-                {
-                    Console.WriteLine("       ");
+                    ++cardsToDelete;
                 }
             }
-            Console.WriteLine("----------AI Player Debug Log----------");
-            Console.BackgroundColor = ConsoleColor.Black;
-            return new PlayerAction(Name, "Draw", cardsRemoved == 0 ? "stand pat" : "draw", cardsRemoved);
 
+            if (cardsToDelete > 0 && cardsToDelete < 5)
+            {
+                pa = new PlayerAction(Name, "Draw", "draw", cardsToDelete);
+            }
+            else if (cardsToDelete == 5)
+            {
+                // delete them all
+                for (int i = 0; i < hand.Length; i++)
+                {
+                    hand[i] = null;
+                }
+                pa = new PlayerAction(Name, "Draw", "draw", 5);
+            }
+            else // no cards deleted
+            {
+                pa = new PlayerAction(Name, "Draw", "stand pat", 0);
+            }
+
+            return pa;
         }
 
 
@@ -345,6 +552,130 @@ namespace PokerTournament
             }
 
             return result;
+        }
+
+        private float HandStrength(Card[] hand)
+        {
+            List<int> vals = new List<int>();
+            List<string> suit = new List<string>();
+
+            foreach (Card c in hand)
+            {
+                vals.Add(c.Value);
+                suit.Add(c.Suit);
+            }
+
+            int highCard;
+            int pairVal = 0;
+            bool onePair = false;
+            bool twoPair = false;
+            bool threeKind = false;
+            bool straight = false;
+            bool flush = false;
+            bool fullHouse = false;
+            bool fourKind = false;
+
+            highCard = vals.Max();
+
+            vals.Sort((a, b) => a.CompareTo(b));
+
+            int numSame = 0;
+            int uniques = vals.Distinct().Count();
+            for(int i = 0; i < vals.Count; i++)
+            {
+                for(int j = i + 1; j < vals.Count; j++)
+                {
+                    if (vals[i] == vals[j])
+                    {
+                        numSame++;
+                        pairVal = vals[i];
+                    }
+                }
+            }
+
+            switch (numSame)
+            {
+                case 5:
+                    fullHouse = true;
+                    break;
+                case 4: // can also be 2 pair
+                    if (uniques == 3)
+                    {
+                        twoPair = true;
+                    }
+                    else
+                    {
+                        fourKind = true;
+                    }
+                    break;
+                case 3:
+                    threeKind = true;
+                    break;
+                case 2:
+                    onePair = true;
+                    break;
+                default:
+                    break;
+            }
+
+            if (vals[0] + 1 == vals[1] &&
+                vals[1] + 1 == vals[2] &&
+                vals[2] + 1 == vals[3] &&
+                vals[3] + 1 == vals[4])
+            {
+                straight = true;
+            }
+
+            if (suit.Distinct().Count() == 1)
+            {
+                flush = true;
+            }
+
+            if(straight && flush)
+            {
+                if (highCard == 14)
+                {
+                    return 1.0f;
+                }
+                return 1.0f - 0.00000154f;
+            }
+
+            if (fourKind)
+            {
+                return 1.0f - 0.000015f;
+            }
+
+            if (fullHouse)
+            {
+                return 1.0f - 0.000256f;
+            }
+
+            if (flush)
+            {
+                return 1.0f - 0.0017f;
+            }
+
+            if (straight)
+            {
+                return 1.0f - 0.00367f;
+            }
+
+            if (threeKind)
+            {
+                return 1.0f - (0.0076f + (14.0f - (float)pairVal) * 0.00162523077f);
+            }
+
+            if (twoPair)
+            {
+                return 1.0f - (0.0287f + (14.0f - (float)pairVal) * 0.00365684615f);
+            }
+            
+            if (onePair)
+            {
+                return 1.0f - (0.0762f + (14.0f - (float)pairVal) * 0.0325053077f);
+            }
+
+            return 1.0f - (0.499f + (14.0f - (float)highCard) * 0.0385520769f);
         }
     }
 

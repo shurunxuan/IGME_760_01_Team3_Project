@@ -28,13 +28,14 @@ namespace PokerTournament
         static void Main(string[] args)
         {
             // create two players
-            Human h0 = new Human(0, "Joe", 1000);
-            Human h1 = new Human(1, "Sue", 1000);
+            Player3 h0 = new Player3(0, "Joe", 1000);
+            Player3 h1 = new Player3(1, "Sue", 1000);
 
             // create the Game
             Game myGame = new Game(h0, h1);
 
             myGame.Tournament(); // run the game
+            Console.Read();
         }
     }
 }

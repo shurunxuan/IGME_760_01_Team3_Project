@@ -12,28 +12,10 @@ namespace PokerTournament
         public Player3(int idNum, string nm, int mny) : base(idNum, nm, mny)
         {
         }
-        // TODO: Delete this. This is copied from Human.cs
-        private void ListTheHand(Card[] hand)
-        {
-            // evaluate the hand
-            Card highCard = null;
-            int rank = Evaluate.RateAHand(hand, out highCard);
 
-            // list your hand
-            Console.WriteLine("\nName: " + Name + " Your hand:   Rank: " + rank);
-            for (int i = 0; i < hand.Length; i++)
-            {
-                Console.WriteLine(hand[i]);
-            }
-            Console.WriteLine();
-        }
 
-        // TODO: Delete this. This is copied from Human.cs
         public override PlayerAction BettingRound1(List<PlayerAction> actions, Card[] hand)
         {
-            // list the hand
-            ListTheHand(hand);
-
             // select an action
             string actionSelection = "";
             PlayerAction pa = null;
@@ -43,7 +25,7 @@ namespace PokerTournament
 
             do
             {
-                Console.WriteLine("Select an action:\n1 - bet\n2 - raise\n3 - call\n4 - check\n5 - fold");
+                //Console.WriteLine("Select an action:\n1 - bet\n2 - raise\n3 - call\n4 - check\n5 - fold");
 
                 hS = HandStrength(hand);
 
@@ -176,7 +158,7 @@ namespace PokerTournament
                         }
                     }
                 }
-                
+
 
 
                 //actionSelection = Console.ReadLine();
@@ -190,22 +172,24 @@ namespace PokerTournament
                     {
                         if (actionSelection[0] == '1') // bet
                         {
-                            Console.Write("Amount to bet? ");
+                            //Console.Write("Amount to bet? ");
                             //amtText = Console.ReadLine();
-                            if(hS == 1.0f)
+                            if (hS == 1.0f)
                             {
                                 amtText = this.Money.ToString();
-                            } else if (hS >= 0.95)
+                            }
+                            else if (hS >= 0.95)
                             {
                                 amtText = ((int)(maxBet * hS)).ToString();
-                            } else
+                            }
+                            else
                             {
                                 amtText = "1";
                             }
                         }
                         else if (actionSelection[0] == '2') // raise
                         {
-                            Console.Write("Amount to raise? ");
+                            //Console.Write("Amount to raise? ");
                             if (hS == 1.0f)
                             {
                                 amtText = this.Money.ToString();
@@ -218,7 +202,7 @@ namespace PokerTournament
                             {
                                 amtText = "1";
                             }
-                            
+
                             //amtText = Console.ReadLine();
                         }
                         // convert the string to an int
@@ -228,12 +212,12 @@ namespace PokerTournament
                         // check input
                         if (tempAmt > this.Money) //
                         {
-                            Console.WriteLine("Amount bet is more than the amount you have available.");
+                            //Console.WriteLine("Amount bet is more than the amount you have available.");
                             amount = 0;
                         }
                         else if (tempAmt < 0)
                         {
-                            Console.WriteLine("Amount bet or raised cannot be less than zero.");
+                            //Console.WriteLine("Amount bet or raised cannot be less than zero.");
                             amount = 0;
                         }
                         else
@@ -251,7 +235,7 @@ namespace PokerTournament
                     case "3": pa = new PlayerAction(Name, "Bet1", "call", amount); break;
                     case "4": pa = new PlayerAction(Name, "Bet1", "check", amount); break;
                     case "5": pa = new PlayerAction(Name, "Bet1", "fold", amount); break;
-                    default: Console.WriteLine("Invalid menu selection - try again"); continue;
+                    default: /*Console.WriteLine("Invalid menu selection - try again");*/ continue;
                 }
             } while (actionSelection != "1" && actionSelection != "2" &&
                     actionSelection != "3" && actionSelection != "4" &&
@@ -260,19 +244,6 @@ namespace PokerTournament
             return pa;
         }
 
- /*       public override PlayerAction BettingRound1(List<PlayerAction> actions, Card[] hand)
-        {
-            // Remember previous actions
-            previousActions = actions;
-
-            // TODO: Implement Betting Round 1 Algorithm
-            //PlayerAction pa1 = HumanBetting(actions, hand);
-            //return new PlayerAction(pa1.Name, "Bet1", pa1.ActionName, pa1.Amount);
-            if (Dealer)
-                return new PlayerAction(Name, "Bet1", "call", 0);
-            return new PlayerAction(Name, "Bet1", "bet", 10);
-        }*/
-
         public override PlayerAction BettingRound2(List<PlayerAction> actions, Card[] hand)
         {
             PlayerAction pa1 = BettingRound1(actions, hand);
@@ -280,24 +251,10 @@ namespace PokerTournament
             // create a new PlayerAction object
             return new PlayerAction(pa1.Name, "Bet2", pa1.ActionName, pa1.Amount);
 
- /*           // Remember previous actions
-            previousActions = actions;
-
-            // TODO: Implement Betting Round 2 Algorithm
-            //PlayerAction pa1 = HumanBetting(actions, hand);
-            //return new PlayerAction(pa1.Name, "Bet2", pa1.ActionName, pa1.Amount);
-            if (Dealer)
-                return new PlayerAction(Name, "Bet2", "call", 0);
-            return new PlayerAction(Name, "Bet2", "bet", 10);*/
         }
 
         public override PlayerAction Draw(Card[] hand)
         {
-            ListTheHand(hand);
-            
-
-            PlayerAction pa = null;
-
             var hasP = HasPairs(hand);
             var hasF = HasFlush(hand);
             var longS = LongestStraight(hand);
@@ -313,30 +270,6 @@ namespace PokerTournament
             int cardsToDelete = 0;
 
             // Remove Cards
-            /*            int cardsRemoved = 0;
-                        Console.BackgroundColor = ConsoleColor.DarkRed;
-                        Console.WriteLine("----------AI Player Debug Log----------");
-                        for (int i = 0; i < hand.Length; ++i)
-                        {
-                            Console.Write(hand[i].ToString() + "\t");
-                            Console.Write(hasP[i] + "\t");
-                            Console.Write(hasF[i] + "\t");
-                            Console.Write(longS[i] + "\t");
-
-                            if (evaluation[i] < evaluation.Average())
-                            {
-                                Console.WriteLine("Removed");
-                                hand[i] = null;
-                                ++cardsRemoved;
-                            }
-                            else
-                            {
-                                Console.WriteLine("       ");
-                            }
-                        }
-                        Console.WriteLine("----------AI Player Debug Log----------");
-                        Console.BackgroundColor = ConsoleColor.Black;
-            */
             for (int i = 0; i < hand.Length; ++i)
             {
                 //Console.Write(hand[i].ToString() + "\t");
@@ -351,26 +284,7 @@ namespace PokerTournament
                     ++cardsToDelete;
                 }
             }
-
-            if (cardsToDelete > 0 && cardsToDelete < 5)
-            {
-                pa = new PlayerAction(Name, "Draw", "draw", cardsToDelete);
-            }
-            else if (cardsToDelete == 5)
-            {
-                // delete them all
-                for (int i = 0; i < hand.Length; i++)
-                {
-                    hand[i] = null;
-                }
-                pa = new PlayerAction(Name, "Draw", "draw", 5);
-            }
-            else // no cards deleted
-            {
-                pa = new PlayerAction(Name, "Draw", "stand pat", 0);
-            }
-
-            return pa;
+            return new PlayerAction(Name, "Draw", cardsToDelete == 0 ? "stand pat" : "draw", cardsToDelete);
         }
 
 
@@ -581,9 +495,9 @@ namespace PokerTournament
 
             int numSame = 0;
             int uniques = vals.Distinct().Count();
-            for(int i = 0; i < vals.Count; i++)
+            for (int i = 0; i < vals.Count; i++)
             {
-                for(int j = i + 1; j < vals.Count; j++)
+                for (int j = i + 1; j < vals.Count; j++)
                 {
                     if (vals[i] == vals[j])
                     {
@@ -631,7 +545,7 @@ namespace PokerTournament
                 flush = true;
             }
 
-            if(straight && flush)
+            if (straight && flush)
             {
                 if (highCard == 14)
                 {
@@ -669,7 +583,7 @@ namespace PokerTournament
             {
                 return 1.0f - (0.0287f + (14.0f - (float)pairVal) * 0.00365684615f);
             }
-            
+
             if (onePair)
             {
                 return 1.0f - (0.0762f + (14.0f - (float)pairVal) * 0.0325053077f);

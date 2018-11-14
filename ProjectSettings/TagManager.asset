@@ -8,6 +8,7 @@ TagManager:
   - AStarUnit
   - Terrain
   - Obstacle
+  - Influence
   layers:
   - Default
   - TransparentFX

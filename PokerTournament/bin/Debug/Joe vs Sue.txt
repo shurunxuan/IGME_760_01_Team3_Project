@@ -1,0 +1,3428 @@
+Starting round 1
+Ante for this round: 10
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 20
+ 
+Name: Sue
+Hand Rank: 2 
+Four of Spades Six of Clubs Eight of Hearts Eight of Diamonds King of Clubs 
+
+ 
+Name: Joe
+Hand Rank: 1 
+Five of Clubs Nine of Clubs Jack of Clubs King of Spades Ace of Clubs 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 22
+ 
+Sue has a better hand and wins 22
+
+After round 1, player status: 
+ Name: Joe Dealer: True Money: 989
+ Name: Sue Dealer: False Money: 1011
+ 
+Starting round 2
+Ante for this round: 10
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 22
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Diamonds Five of Diamonds Eight of Hearts Eight of Spades Ten of Diamonds 
+
+ 
+Name: Sue
+Hand Rank: 4 
+Two of Hearts Six of Hearts Six of Diamonds Six of Spades Queen of Hearts 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 959
+ 
+Player: Joe Action Phase: Bet2 Action Name: fold Amount: 0
+ 
+After Bet2, pot is 981
+ 
+Joe folded. Other player gets the pot of 981
+
+After round 2, player status: 
+ Name: Joe Dealer: False Money: 978
+ Name: Sue Dealer: True Money: 1022
+ 
+Starting round 3
+Ante for this round: 10
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 22
+ 
+Name: Sue
+Hand Rank: 2 
+Four of Hearts Five of Hearts Seven of Spades Seven of Diamonds Nine of Clubs 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Diamonds Five of Spades Five of Clubs Eight of Diamonds Ten of Spades 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 22
+ 
+Sue has a better hand and wins 22
+
+After round 3, player status: 
+ Name: Joe Dealer: True Money: 967
+ Name: Sue Dealer: False Money: 1033
+ 
+Starting round 4
+Ante for this round: 10
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 20
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Hearts Two of Spades Four of Clubs Five of Hearts Six of Clubs 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Four of Diamonds Five of Diamonds Ten of Hearts Ten of Clubs Ace of Clubs 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 23
+ 
+Sue has a better hand and wins 23
+
+After round 4, player status: 
+ Name: Joe Dealer: False Money: 956
+ Name: Sue Dealer: True Money: 1044
+ 
+Starting round 5
+Ante for this round: 10
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 21
+ 
+Name: Sue
+Hand Rank: 2 
+Five of Clubs Seven of Diamonds Eight of Clubs Eight of Spades Nine of Diamonds 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Hearts Three of Spades Three of Clubs Seven of Clubs King of Clubs 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 23
+ 
+Sue has a better hand and wins 23
+
+After round 5, player status: 
+ Name: Joe Dealer: True Money: 945
+ Name: Sue Dealer: False Money: 1056
+ 
+Starting round 6
+Ante for this round: 10
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 23
+ 
+Name: Joe
+Hand Rank: 1 
+Three of Hearts Seven of Hearts Eight of Hearts Ten of Diamonds Queen of Hearts 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Two of Spades Five of Clubs Five of Hearts Seven of Diamonds Ace of Spades 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 25
+ 
+Sue has a better hand and wins 25
+
+After round 6, player status: 
+ Name: Joe Dealer: False Money: 933
+ Name: Sue Dealer: True Money: 1069
+ 
+Starting round 7
+Ante for this round: 10
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 22
+ 
+Name: Sue
+Hand Rank: 2 
+Two of Diamonds Six of Spades Seven of Spades Seven of Hearts Ace of Clubs 
+
+ 
+Name: Joe
+Hand Rank: 4 
+Two of Hearts Seven of Diamonds Ace of Spades Ace of Diamonds Ace of Hearts 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 908
+ 
+Player: Sue Action Phase: Bet2 Action Name: fold Amount: 0
+ 
+After Bet2, pot is 930
+ 
+Sue folded. Other player gets the pot of 930
+
+After round 7, player status: 
+ Name: Joe Dealer: True Money: 944
+ Name: Sue Dealer: False Money: 1058
+ 
+Starting round 8
+Ante for this round: 10
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 20
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Spades Two of Clubs Seven of Spades Jack of Spades Ace of Spades 
+
+ 
+Name: Sue
+Hand Rank: 1 
+Three of Spades Seven of Clubs Eight of Clubs Nine of Clubs Queen of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 22
+ 
+Joe has a better hand and wins 22
+
+After round 8, player status: 
+ Name: Joe Dealer: False Money: 955
+ Name: Sue Dealer: True Money: 1047
+ 
+Starting round 9
+Ante for this round: 10
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 20
+ 
+Name: Sue
+Hand Rank: 4 
+Two of Hearts Two of Clubs Two of Diamonds Five of Hearts Six of Hearts 
+
+ 
+Name: Joe
+Hand Rank: 1 
+Three of Diamonds Four of Diamonds Six of Diamonds Eight of Diamonds Ten of Spades 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 981
+ 
+Player: Joe Action Phase: Bet2 Action Name: fold Amount: 0
+ 
+After Bet2, pot is 1001
+ 
+Joe folded. Other player gets the pot of 1001
+
+After round 9, player status: 
+ Name: Joe Dealer: True Money: 945
+ Name: Sue Dealer: False Money: 1057
+ 
+Starting round 10
+Ante for this round: 10
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 22
+ 
+Name: Joe
+Hand Rank: 1 
+Six of Spades Eight of Spades Nine of Spades Queen of Clubs King of Spades 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Seven of Clubs Nine of Diamonds Ten of Spades Queen of Hearts Queen of Spades 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 24
+ 
+Sue has a better hand and wins 24
+
+After round 10, player status: 
+ Name: Joe Dealer: False Money: 933
+ Name: Sue Dealer: True Money: 1069
+ 
+Starting round 11
+Ante for this round: 10
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 20
+ 
+Name: Sue
+Hand Rank: 2 
+Seven of Clubs Eight of Hearts Ten of Diamonds Ten of Clubs Ace of Clubs 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Diamonds Two of Clubs Seven of Spades Eight of Clubs Queen of Hearts 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 22
+ 
+Sue has a better hand and wins 22
+
+After round 11, player status: 
+ Name: Joe Dealer: True Money: 922
+ Name: Sue Dealer: False Money: 1080
+ 
+Starting round 12
+Ante for this round: 10
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 20
+ 
+Name: Joe
+Hand Rank: 1 
+Two of Hearts Four of Hearts Five of Clubs Six of Clubs Ace of Clubs 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Three of Hearts Five of Hearts Nine of Clubs Nine of Diamonds Jack of Clubs 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 20
+ 
+Sue has a better hand and wins 20
+
+After round 12, player status: 
+ Name: Joe Dealer: False Money: 912
+ Name: Sue Dealer: True Money: 1090
+ 
+Starting round 13
+Ante for this round: 10
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 888
+ 
+Player: Sue Action Phase: Bet1 Action Name: fold Amount: 0
+ 
+After Bet1, pot is 908
+ 
+Sue folded. Other player gets the pot of 908
+
+After round 13, player status: 
+ Name: Joe Dealer: True Money: 922
+ Name: Sue Dealer: False Money: 1080
+ 
+Starting round 14
+Ante for this round: 10
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 20
+ 
+Name: Joe
+Hand Rank: 2 
+Seven of Spades Nine of Clubs King of Spades King of Clubs Ace of Clubs 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Four of Diamonds Eight of Diamonds Eight of Spades Jack of Clubs Queen of Hearts 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 22
+ 
+Joe has a better hand and wins 22
+
+After round 14, player status: 
+ Name: Joe Dealer: False Money: 933
+ Name: Sue Dealer: True Money: 1069
+ 
+Starting round 15
+Ante for this round: 10
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 22
+ 
+Name: Sue
+Hand Rank: 2 
+Two of Hearts Two of Spades Six of Spades Nine of Spades Ten of Clubs 
+
+ 
+Name: Joe
+Hand Rank: 1 
+Four of Clubs Jack of Diamonds Queen of Clubs King of Clubs Ace of Diamonds 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 24
+ 
+Sue has a better hand and wins 24
+
+After round 15, player status: 
+ Name: Joe Dealer: True Money: 921
+ Name: Sue Dealer: False Money: 1081
+ 
+Starting round 16
+Ante for this round: 10
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 20
+ 
+Name: Joe
+Hand Rank: 2 
+Four of Spades Jack of Diamonds Jack of Spades King of Diamonds Ace of Hearts 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Four of Hearts Five of Diamonds Five of Clubs Queen of Clubs King of Spades 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 22
+ 
+Joe has a better hand and wins 22
+
+After round 16, player status: 
+ Name: Joe Dealer: False Money: 932
+ Name: Sue Dealer: True Money: 1070
+ 
+Starting round 17
+Ante for this round: 10
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 22
+ 
+Name: Sue
+Hand Rank: 2 
+Five of Spades Seven of Diamonds Nine of Spades Ace of Diamonds Ace of Spades 
+
+ 
+Name: Joe
+Hand Rank: 1 
+Five of Hearts Eight of Clubs Queen of Hearts King of Clubs Ace of Hearts 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 24
+ 
+Sue has a better hand and wins 24
+
+After round 17, player status: 
+ Name: Joe Dealer: True Money: 920
+ Name: Sue Dealer: False Money: 1082
+ 
+Starting round 18
+Ante for this round: 10
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 22
+ 
+Name: Joe
+Hand Rank: 1 
+Two of Hearts Five of Clubs Eight of Spades Jack of Diamonds Ace of Hearts 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Two of Diamonds Two of Spades Three of Hearts Eight of Diamonds King of Hearts 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 24
+ 
+Sue has a better hand and wins 24
+
+After round 18, player status: 
+ Name: Joe Dealer: False Money: 908
+ Name: Sue Dealer: True Money: 1094
+ 
+Starting round 19
+Ante for this round: 10
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 22
+ 
+Name: Sue
+Hand Rank: 2 
+Five of Clubs Jack of Diamonds King of Clubs King of Diamonds Ace of Hearts 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Hearts Two of Spades Five of Diamonds Eight of Hearts Ace of Clubs 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 24
+ 
+Sue has a better hand and wins 24
+
+After round 19, player status: 
+ Name: Joe Dealer: True Money: 896
+ Name: Sue Dealer: False Money: 1106
+ 
+Starting round 20
+Ante for this round: 10
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 22
+ 
+Name: Joe
+Hand Rank: 2 
+Three of Spades Three of Hearts Five of Spades Nine of Spades Ace of Diamonds 
+
+ 
+Name: Sue
+Hand Rank: 1 
+Two of Spades Seven of Hearts Eight of Spades Ten of Clubs Queen of Spades 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 24
+ 
+Joe has a better hand and wins 24
+
+After round 20, player status: 
+ Name: Joe Dealer: False Money: 908
+ Name: Sue Dealer: True Money: 1094
+ 
+Starting round 21
+Ante for this round: 10
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1046
+ 
+Player: Joe Action Phase: Bet1 Action Name: fold Amount: 0
+ 
+After Bet1, pot is 1066
+ 
+Joe folded. Other player gets the pot of 1066
+
+After round 21, player status: 
+ Name: Joe Dealer: True Money: 898
+ Name: Sue Dealer: False Money: 1104
+ 
+Starting round 22
+Ante for this round: 10
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 20
+ 
+Name: Joe
+Hand Rank: 2 
+Three of Diamonds Three of Hearts Six of Hearts Ten of Hearts Ace of Clubs 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Two of Diamonds Eight of Spades Eight of Clubs Ten of Diamonds Queen of Hearts 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 22
+ 
+Sue has a better hand and wins 22
+
+After round 22, player status: 
+ Name: Joe Dealer: False Money: 887
+ Name: Sue Dealer: True Money: 1115
+ 
+Starting round 23
+Ante for this round: 10
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 23
+ 
+Name: Sue
+Hand Rank: 2 
+Two of Diamonds Two of Clubs Four of Clubs Six of Clubs Queen of Diamonds 
+
+ 
+Name: Joe
+Hand Rank: 3 
+Seven of Clubs Queen of Hearts Queen of Clubs King of Clubs King of Spades 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 25
+ 
+Joe has a better hand and wins 25
+
+After round 23, player status: 
+ Name: Joe Dealer: True Money: 899
+ Name: Sue Dealer: False Money: 1103
+ 
+Starting round 24
+Ante for this round: 10
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 22
+ 
+Name: Joe
+Hand Rank: 2 
+Three of Hearts Four of Diamonds Eight of Spades Eight of Diamonds Jack of Clubs 
+
+ 
+Name: Sue
+Hand Rank: 1 
+Six of Hearts Nine of Hearts Jack of Hearts King of Hearts Ace of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 24
+ 
+Joe has a better hand and wins 24
+
+After round 24, player status: 
+ Name: Joe Dealer: False Money: 911
+ Name: Sue Dealer: True Money: 1091
+ 
+Starting round 25
+Ante for this round: 10
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 20
+ 
+Name: Sue
+Hand Rank: 1 
+Three of Hearts Seven of Spades Eight of Spades Nine of Spades Jack of Spades 
+
+ 
+Name: Joe
+Hand Rank: 1 
+Two of Clubs Six of Clubs Seven of Diamonds Ten of Spades Jack of Hearts 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 20
+ 
+Sue has a better hand and wins 0
+
+After round 25, player status: 
+ Name: Joe Dealer: True Money: 921
+ Name: Sue Dealer: False Money: 1081
+ 
+Starting round 26
+Ante for this round: 20
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 40
+ 
+Name: Joe
+Hand Rank: 1 
+Three of Diamonds Seven of Hearts Ten of Spades Jack of Hearts King of Diamonds 
+
+ 
+Name: Sue
+Hand Rank: 4 
+Three of Spades Five of Spades Five of Diamonds Five of Hearts Jack of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1014
+ 
+Player: Joe Action Phase: Bet2 Action Name: fold Amount: 0
+ 
+After Bet2, pot is 1054
+ 
+Joe folded. Other player gets the pot of 1054
+
+After round 26, player status: 
+ Name: Joe Dealer: False Money: 901
+ Name: Sue Dealer: True Money: 1101
+ 
+Starting round 27
+Ante for this round: 20
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 40
+ 
+Name: Sue
+Hand Rank: 1 
+Four of Diamonds Five of Hearts Ten of Diamonds King of Diamonds Ace of Diamonds 
+
+ 
+Name: Joe
+Hand Rank: 3 
+Five of Diamonds Five of Clubs Nine of Clubs Jack of Spades Jack of Hearts 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 42
+ 
+Joe has a better hand and wins 42
+
+After round 27, player status: 
+ Name: Joe Dealer: True Money: 922
+ Name: Sue Dealer: False Money: 1080
+ 
+Starting round 28
+Ante for this round: 20
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 42
+ 
+Name: Joe
+Hand Rank: 2 
+Five of Hearts Six of Clubs Seven of Clubs Nine of Hearts Nine of Diamonds 
+
+ 
+Name: Sue
+Hand Rank: 1 
+Two of Spades Eight of Spades Nine of Clubs Jack of Spades Queen of Clubs 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 44
+ 
+Joe has a better hand and wins 44
+
+After round 28, player status: 
+ Name: Joe Dealer: False Money: 944
+ Name: Sue Dealer: True Money: 1058
+ 
+Starting round 29
+Ante for this round: 20
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 42
+ 
+Name: Sue
+Hand Rank: 2 
+Three of Diamonds Four of Clubs Five of Hearts Seven of Hearts Seven of Diamonds 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Clubs Seven of Clubs Eight of Spades Eight of Clubs Queen of Clubs 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 45
+ 
+Joe has a better hand and wins 45
+
+After round 29, player status: 
+ Name: Joe Dealer: True Money: 966
+ Name: Sue Dealer: False Money: 1036
+ 
+Starting round 30
+Ante for this round: 20
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 41
+ 
+Name: Joe
+Hand Rank: 1 
+Eight of Clubs Ten of Hearts Jack of Hearts Queen of Hearts Ace of Diamonds 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Six of Clubs Nine of Spades Nine of Diamonds Jack of Diamonds King of Spades 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 43
+ 
+Sue has a better hand and wins 43
+
+After round 30, player status: 
+ Name: Joe Dealer: False Money: 945
+ Name: Sue Dealer: True Money: 1058
+ 
+Starting round 31
+Ante for this round: 20
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 42
+ 
+Name: Sue
+Hand Rank: 2 
+Three of Spades Seven of Clubs Seven of Diamonds Jack of Clubs Ace of Spades 
+
+ 
+Name: Joe
+Hand Rank: 1 
+Three of Diamonds Four of Hearts Six of Diamonds Seven of Spades Jack of Diamonds 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 42
+ 
+Sue has a better hand and wins 42
+
+After round 31, player status: 
+ Name: Joe Dealer: True Money: 924
+ Name: Sue Dealer: False Money: 1079
+ 
+Starting round 32
+Ante for this round: 20
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 40
+ 
+Name: Joe
+Hand Rank: 2 
+Three of Hearts Five of Diamonds Six of Diamonds Ace of Diamonds Ace of Hearts 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Three of Clubs Three of Spades Four of Clubs Six of Clubs King of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 42
+ 
+Joe has a better hand and wins 42
+
+After round 32, player status: 
+ Name: Joe Dealer: False Money: 945
+ Name: Sue Dealer: True Money: 1058
+ 
+Starting round 33
+Ante for this round: 20
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 42
+ 
+Name: Sue
+Hand Rank: 2 
+Five of Spades Six of Hearts Nine of Spades Nine of Diamonds Ten of Hearts 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Spades Four of Hearts Five of Diamonds Queen of Clubs Queen of Hearts 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 44
+ 
+Joe has a better hand and wins 44
+
+After round 33, player status: 
+ Name: Joe Dealer: True Money: 967
+ Name: Sue Dealer: False Money: 1036
+ 
+Starting round 34
+Ante for this round: 20
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 40
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Hearts Three of Hearts Seven of Diamonds Queen of Diamonds Queen of Hearts 
+
+ 
+Name: Sue
+Hand Rank: 1 
+Three of Clubs Five of Diamonds Nine of Hearts Ten of Hearts King of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 42
+ 
+Joe has a better hand and wins 42
+
+After round 34, player status: 
+ Name: Joe Dealer: False Money: 988
+ Name: Sue Dealer: True Money: 1015
+ 
+Starting round 35
+Ante for this round: 20
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 42
+ 
+Name: Sue
+Hand Rank: 2 
+Six of Diamonds Seven of Diamonds Ten of Spades King of Spades King of Clubs 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Hearts Two of Clubs Five of Hearts Seven of Hearts Eight of Hearts 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 42
+ 
+Sue has a better hand and wins 42
+
+After round 35, player status: 
+ Name: Joe Dealer: True Money: 967
+ Name: Sue Dealer: False Money: 1036
+ 
+Starting round 36
+Ante for this round: 20
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 40
+ 
+Name: Joe
+Hand Rank: 2 
+Four of Hearts Four of Clubs Seven of Hearts Nine of Clubs Jack of Clubs 
+
+ 
+Name: Sue
+Hand Rank: 1 
+Three of Diamonds Six of Diamonds Eight of Diamonds Ten of Spades Queen of Clubs 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 42
+ 
+Joe has a better hand and wins 42
+
+After round 36, player status: 
+ Name: Joe Dealer: False Money: 988
+ Name: Sue Dealer: True Money: 1015
+ 
+Starting round 37
+Ante for this round: 20
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 42
+ 
+Name: Sue
+Hand Rank: 4 
+Two of Hearts Six of Diamonds Six of Hearts Six of Spades Ace of Hearts 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Three of Diamonds Five of Diamonds Five of Spades Eight of Hearts King of Diamonds 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 953
+ 
+Player: Joe Action Phase: Bet2 Action Name: fold Amount: 0
+ 
+After Bet2, pot is 995
+ 
+Joe folded. Other player gets the pot of 995
+
+After round 37, player status: 
+ Name: Joe Dealer: True Money: 967
+ Name: Sue Dealer: False Money: 1036
+ 
+Starting round 38
+Ante for this round: 20
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 43
+ 
+Name: Joe
+Hand Rank: 1 
+Two of Hearts Five of Hearts Seven of Hearts Eight of Hearts Ten of Clubs 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Seven of Spades Nine of Hearts Queen of Spades Queen of Diamonds Ace of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 45
+ 
+Sue has a better hand and wins 45
+
+After round 38, player status: 
+ Name: Joe Dealer: False Money: 945
+ Name: Sue Dealer: True Money: 1058
+ 
+Starting round 39
+Ante for this round: 20
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 42
+ 
+Name: Sue
+Hand Rank: 1 
+Two of Spades Three of Diamonds Five of Spades Nine of Clubs Ace of Spades 
+
+ 
+Name: Joe
+Hand Rank: 1 
+Two of Clubs Four of Clubs Five of Diamonds Seven of Clubs Nine of Spades 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 42
+ 
+Joe has a better hand and wins 0
+
+After round 39, player status: 
+ Name: Joe Dealer: True Money: 924
+ Name: Sue Dealer: False Money: 1079
+ 
+Starting round 40
+Ante for this round: 20
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 42
+ 
+Name: Joe
+Hand Rank: 3 
+Four of Hearts Four of Clubs Seven of Spades Eight of Clubs Eight of Hearts 
+
+ 
+Name: Sue
+Hand Rank: 3 
+Nine of Hearts Nine of Spades Queen of Diamonds Queen of Hearts Ace of Spades 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 44
+ 
+Sue has a better hand and wins 44
+
+After round 40, player status: 
+ Name: Joe Dealer: False Money: 902
+ Name: Sue Dealer: True Money: 1101
+ 
+Starting round 41
+Ante for this round: 20
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 42
+ 
+Name: Sue
+Hand Rank: 2 
+Three of Hearts Five of Diamonds Five of Spades Queen of Hearts Ace of Clubs 
+
+ 
+Name: Joe
+Hand Rank: 1 
+Six of Spades Seven of Spades Eight of Hearts Nine of Spades Ace of Hearts 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 44
+ 
+Sue has a better hand and wins 44
+
+After round 41, player status: 
+ Name: Joe Dealer: True Money: 880
+ Name: Sue Dealer: False Money: 1123
+ 
+Starting round 42
+Ante for this round: 20
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 42
+ 
+Name: Joe
+Hand Rank: 2 
+Seven of Hearts Seven of Clubs Eight of Clubs Nine of Hearts King of Hearts 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Four of Hearts Jack of Spades Jack of Clubs Queen of Hearts Ace of Clubs 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 44
+ 
+Sue has a better hand and wins 44
+
+After round 42, player status: 
+ Name: Joe Dealer: False Money: 858
+ Name: Sue Dealer: True Money: 1145
+ 
+Starting round 43
+Ante for this round: 20
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 42
+ 
+Name: Sue
+Hand Rank: 3 
+Six of Clubs Nine of Diamonds Nine of Clubs King of Clubs King of Hearts 
+
+ 
+Name: Joe
+Hand Rank: 4 
+Two of Spades Two of Hearts Two of Diamonds Three of Diamonds Five of Spades 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 792
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 1626
+ 
+Joe has a better hand and wins 1626
+
+After round 43, player status: 
+ Name: Joe Dealer: True Money: 1671
+ Name: Sue Dealer: False Money: 332
+ 
+Starting round 44
+Ante for this round: 20
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 40
+ 
+Name: Joe
+Hand Rank: 1 
+Four of Diamonds Six of Spades Seven of Diamonds Nine of Hearts Ten of Clubs 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Five of Spades Seven of Clubs Seven of Hearts Queen of Hearts King of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 42
+ 
+Sue has a better hand and wins 42
+
+After round 44, player status: 
+ Name: Joe Dealer: False Money: 1650
+ Name: Sue Dealer: True Money: 353
+ 
+Starting round 45
+Ante for this round: 20
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 40
+ 
+Name: Sue
+Hand Rank: 2 
+Nine of Spades Ten of Spades Queen of Hearts Queen of Spades King of Hearts 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Five of Diamonds Nine of Hearts Nine of Diamonds Jack of Diamonds Queen of Clubs 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 42
+ 
+Sue has a better hand and wins 42
+
+After round 45, player status: 
+ Name: Joe Dealer: True Money: 1629
+ Name: Sue Dealer: False Money: 374
+ 
+Starting round 46
+Ante for this round: 20
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 42
+ 
+Name: Joe
+Hand Rank: 1 
+Two of Clubs Six of Clubs Nine of Clubs Ten of Diamonds Queen of Hearts 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Two of Spades Seven of Clubs Jack of Spades Jack of Clubs King of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 44
+ 
+Sue has a better hand and wins 44
+
+After round 46, player status: 
+ Name: Joe Dealer: False Money: 1607
+ Name: Sue Dealer: True Money: 396
+ 
+Starting round 47
+Ante for this round: 20
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 42
+ 
+Name: Sue
+Hand Rank: 1 
+Four of Diamonds Five of Spades Ten of Clubs Queen of Diamonds Ace of Diamonds 
+
+ 
+Name: Joe
+Hand Rank: 1 
+Four of Hearts Five of Clubs Seven of Spades Jack of Spades Queen of Spades 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 44
+ 
+Sue has a better hand and wins 0
+
+After round 47, player status: 
+ Name: Joe Dealer: True Money: 1585
+ Name: Sue Dealer: False Money: 418
+ 
+Starting round 48
+Ante for this round: 20
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 42
+ 
+Name: Joe
+Hand Rank: 3 
+Three of Spades Three of Hearts Six of Hearts Jack of Hearts Jack of Spades 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Three of Clubs Eight of Spades Nine of Diamonds Nine of Spades Queen of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 44
+ 
+Joe has a better hand and wins 44
+
+After round 48, player status: 
+ Name: Joe Dealer: False Money: 1607
+ Name: Sue Dealer: True Money: 396
+ 
+Starting round 49
+Ante for this round: 20
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 42
+ 
+Name: Sue
+Hand Rank: 3 
+Six of Diamonds Nine of Clubs Nine of Spades Ten of Spades Ten of Clubs 
+
+ 
+Name: Joe
+Hand Rank: 1 
+Five of Hearts Nine of Hearts Jack of Clubs Queen of Diamonds King of Clubs 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 44
+ 
+Sue has a better hand and wins 44
+
+After round 49, player status: 
+ Name: Joe Dealer: True Money: 1585
+ Name: Sue Dealer: False Money: 418
+ 
+Starting round 50
+Ante for this round: 20
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 42
+ 
+Name: Joe
+Hand Rank: 2 
+Five of Diamonds Eight of Diamonds Eight of Clubs Nine of Spades King of Spades 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Four of Diamonds Six of Clubs Six of Diamonds Seven of Spades Ten of Clubs 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 42
+ 
+Joe has a better hand and wins 42
+
+After round 50, player status: 
+ Name: Joe Dealer: False Money: 1606
+ Name: Sue Dealer: True Money: 397
+ 
+Starting round 51
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Sue
+Hand Rank: 1 
+Six of Diamonds Eight of Diamonds Jack of Spades King of Diamonds Ace of Diamonds 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Three of Clubs Three of Hearts Seven of Hearts Nine of Spades Ace of Hearts 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Joe has a better hand and wins 64
+
+After round 51, player status: 
+ Name: Joe Dealer: True Money: 1638
+ Name: Sue Dealer: False Money: 365
+ 
+Starting round 52
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Joe
+Hand Rank: 2 
+Three of Spades Six of Spades Eight of Diamonds Eight of Clubs Jack of Spades 
+
+ 
+Name: Sue
+Hand Rank: 3 
+Three of Hearts Three of Diamonds Five of Diamonds Five of Spades Jack of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Sue has a better hand and wins 64
+
+After round 52, player status: 
+ Name: Joe Dealer: False Money: 1606
+ Name: Sue Dealer: True Money: 397
+ 
+Starting round 53
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Sue
+Hand Rank: 2 
+Two of Clubs Nine of Hearts Jack of Hearts Jack of Clubs King of Clubs 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Hearts Two of Diamonds Four of Diamonds Five of Hearts Ten of Hearts 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 62
+ 
+Sue has a better hand and wins 62
+
+After round 53, player status: 
+ Name: Joe Dealer: True Money: 1575
+ Name: Sue Dealer: False Money: 428
+ 
+Starting round 54
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 60
+ 
+Name: Joe
+Hand Rank: 2 
+Five of Spades Eight of Spades Eight of Clubs Ten of Clubs Jack of Clubs 
+
+ 
+Name: Sue
+Hand Rank: 3 
+Three of Hearts Three of Clubs Four of Hearts Queen of Diamonds Queen of Spades 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 62
+ 
+Sue has a better hand and wins 62
+
+After round 54, player status: 
+ Name: Joe Dealer: False Money: 1544
+ Name: Sue Dealer: True Money: 459
+ 
+Starting round 55
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 60
+ 
+Name: Sue
+Hand Rank: 2 
+Five of Clubs Six of Spades Six of Hearts Eight of Spades Queen of Clubs 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Three of Hearts Seven of Spades Nine of Diamonds Nine of Hearts Jack of Diamonds 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 60
+ 
+Joe has a better hand and wins 60
+
+After round 55, player status: 
+ Name: Joe Dealer: True Money: 1574
+ Name: Sue Dealer: False Money: 429
+ 
+Starting round 56
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Diamonds Six of Clubs Eight of Clubs Queen of Hearts Queen of Clubs 
+
+ 
+Name: Sue
+Hand Rank: 1 
+Two of Clubs Four of Diamonds Seven of Hearts Ten of Clubs Ace of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Joe has a better hand and wins 64
+
+After round 56, player status: 
+ Name: Joe Dealer: False Money: 1606
+ Name: Sue Dealer: True Money: 397
+ 
+Starting round 57
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Sue
+Hand Rank: 2 
+Four of Hearts Five of Hearts Seven of Clubs Ace of Diamonds Ace of Clubs 
+
+ 
+Name: Joe
+Hand Rank: 3 
+Six of Hearts Eight of Diamonds Eight of Clubs Queen of Hearts Queen of Spades 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Joe has a better hand and wins 64
+
+After round 57, player status: 
+ Name: Joe Dealer: True Money: 1638
+ Name: Sue Dealer: False Money: 365
+ 
+Starting round 58
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 60
+ 
+Name: Joe
+Hand Rank: 1 
+Two of Diamonds Six of Spades Nine of Diamonds Jack of Clubs Queen of Clubs 
+
+ 
+Name: Sue
+Hand Rank: 1 
+Three of Diamonds Four of Spades Six of Diamonds Seven of Diamonds Ten of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 60
+ 
+Sue has a better hand and wins 0
+
+After round 58, player status: 
+ Name: Joe Dealer: False Money: 1668
+ Name: Sue Dealer: True Money: 335
+ 
+Starting round 59
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 60
+ 
+Name: Sue
+Hand Rank: 1 
+Five of Clubs Six of Clubs Seven of Spades Eight of Diamonds Ace of Clubs 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Four of Spades Four of Clubs Nine of Diamonds Jack of Spades King of Clubs 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 62
+ 
+Joe has a better hand and wins 62
+
+After round 59, player status: 
+ Name: Joe Dealer: True Money: 1699
+ Name: Sue Dealer: False Money: 304
+ 
+Starting round 60
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Joe
+Hand Rank: 1 
+Six of Spades Seven of Spades Ten of Clubs Jack of Spades King of Spades 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Two of Spades Four of Hearts Queen of Hearts King of Clubs King of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Sue has a better hand and wins 64
+
+After round 60, player status: 
+ Name: Joe Dealer: False Money: 1667
+ Name: Sue Dealer: True Money: 336
+ 
+Starting round 61
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 60
+ 
+Name: Sue
+Hand Rank: 2 
+Three of Clubs Five of Clubs Jack of Hearts King of Diamonds King of Spades 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Five of Spades Six of Clubs Seven of Spades Seven of Clubs Jack of Clubs 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 60
+ 
+Sue has a better hand and wins 60
+
+After round 61, player status: 
+ Name: Joe Dealer: True Money: 1637
+ Name: Sue Dealer: False Money: 366
+ 
+Starting round 62
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 320
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 700
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Diamonds Nine of Spades Nine of Diamonds Queen of Spades Ace of Spades 
+
+ 
+Name: Sue
+Hand Rank: 4 
+Three of Clubs Four of Spades Four of Clubs Four of Diamonds Five of Clubs 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 15
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 730
+ 
+Sue has a better hand and wins 730
+
+After round 62, player status: 
+ Name: Joe Dealer: False Money: 1272
+ Name: Sue Dealer: True Money: 731
+ 
+Starting round 63
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Sue
+Hand Rank: 2 
+Four of Hearts Six of Clubs Jack of Hearts Ace of Hearts Ace of Spades 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Diamonds Two of Clubs Five of Spades King of Diamonds Ace of Diamonds 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Sue has a better hand and wins 64
+
+After round 63, player status: 
+ Name: Joe Dealer: True Money: 1240
+ Name: Sue Dealer: False Money: 763
+ 
+Starting round 64
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Joe
+Hand Rank: 1 
+Four of Diamonds Five of Clubs Seven of Clubs Eight of Clubs Jack of Spades 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Two of Clubs Four of Clubs Six of Hearts Ten of Spades Ten of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 62
+ 
+Sue has a better hand and wins 62
+
+After round 64, player status: 
+ Name: Joe Dealer: False Money: 1209
+ Name: Sue Dealer: True Money: 794
+ 
+Starting round 65
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Sue
+Hand Rank: 3 
+Seven of Diamonds Queen of Clubs Queen of Spades King of Diamonds King of Clubs 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Clubs Two of Diamonds Four of Clubs Seven of Clubs Ace of Clubs 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Sue has a better hand and wins 64
+
+After round 65, player status: 
+ Name: Joe Dealer: True Money: 1177
+ Name: Sue Dealer: False Money: 826
+ 
+Starting round 66
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 60
+ 
+Name: Joe
+Hand Rank: 1 
+Three of Diamonds Four of Diamonds Eight of Diamonds King of Clubs Ace of Spades 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Four of Spades Five of Hearts Six of Spades Six of Hearts Eight of Hearts 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 60
+ 
+Sue has a better hand and wins 60
+
+After round 66, player status: 
+ Name: Joe Dealer: False Money: 1147
+ Name: Sue Dealer: True Money: 856
+ 
+Starting round 67
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Sue
+Hand Rank: 1 
+Two of Clubs Three of Spades Seven of Hearts Jack of Hearts Queen of Clubs 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Spades Eight of Spades Jack of Clubs Ace of Diamonds Ace of Spades 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Joe has a better hand and wins 64
+
+After round 67, player status: 
+ Name: Joe Dealer: True Money: 1179
+ Name: Sue Dealer: False Money: 824
+ 
+Starting round 68
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 60
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Spades Four of Spades Four of Diamonds Jack of Diamonds Ace of Spades 
+
+ 
+Name: Sue
+Hand Rank: 1 
+Three of Diamonds Five of Diamonds Six of Hearts Seven of Clubs Queen of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 62
+ 
+Joe has a better hand and wins 62
+
+After round 68, player status: 
+ Name: Joe Dealer: False Money: 1210
+ Name: Sue Dealer: True Money: 793
+ 
+Starting round 69
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Sue
+Hand Rank: 1 
+Four of Diamonds Six of Hearts Nine of Hearts Ten of Clubs Queen of Spades 
+
+ 
+Name: Joe
+Hand Rank: 1 
+Three of Clubs Nine of Spades Ten of Hearts Jack of Hearts Ace of Clubs 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Sue has a better hand and wins 0
+
+After round 69, player status: 
+ Name: Joe Dealer: True Money: 1242
+ Name: Sue Dealer: False Money: 761
+ 
+Starting round 70
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 705
+ 
+Player: Joe Action Phase: Bet1 Action Name: fold Amount: 0
+ 
+After Bet1, pot is 765
+ 
+Joe folded. Other player gets the pot of 765
+
+After round 70, player status: 
+ Name: Joe Dealer: False Money: 1212
+ Name: Sue Dealer: True Money: 791
+ 
+Starting round 71
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Sue
+Hand Rank: 3 
+Five of Hearts Five of Clubs Eight of Diamonds Ten of Spades Ten of Clubs 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Jack of Hearts Jack of Clubs Queen of Clubs King of Clubs Ace of Diamonds 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Sue has a better hand and wins 64
+
+After round 71, player status: 
+ Name: Joe Dealer: True Money: 1180
+ Name: Sue Dealer: False Money: 823
+ 
+Starting round 72
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 60
+ 
+Name: Joe
+Hand Rank: 2 
+Seven of Diamonds Eight of Diamonds Eight of Clubs Queen of Diamonds Ace of Diamonds 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Three of Hearts Three of Clubs Seven of Hearts Ten of Spades King of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 62
+ 
+Joe has a better hand and wins 62
+
+After round 72, player status: 
+ Name: Joe Dealer: False Money: 1211
+ Name: Sue Dealer: True Money: 792
+ 
+Starting round 73
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Sue
+Hand Rank: 2 
+Six of Clubs Nine of Spades Ten of Spades Ten of Diamonds Jack of Diamonds 
+
+ 
+Name: Joe
+Hand Rank: 1 
+Five of Hearts Six of Diamonds Seven of Clubs Queen of Diamonds King of Diamonds 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Sue has a better hand and wins 64
+
+After round 73, player status: 
+ Name: Joe Dealer: True Money: 1179
+ Name: Sue Dealer: False Money: 824
+ 
+Starting round 74
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Joe
+Hand Rank: 6 
+Two of Clubs Four of Clubs Five of Clubs Ten of Clubs Jack of Clubs 
+
+ 
+Name: Sue
+Hand Rank: 3 
+Five of Diamonds Five of Hearts Nine of Hearts Ten of Spades Ten of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1144
+ 
+Player: Sue Action Phase: Bet2 Action Name: fold Amount: 0
+ 
+After Bet2, pot is 1206
+ 
+Sue folded. Other player gets the pot of 1206
+
+After round 74, player status: 
+ Name: Joe Dealer: False Money: 1210
+ Name: Sue Dealer: True Money: 793
+ 
+Starting round 75
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Sue
+Hand Rank: 3 
+Five of Hearts Five of Diamonds Seven of Spades Seven of Diamonds Queen of Hearts 
+
+ 
+Name: Joe
+Hand Rank: 3 
+Jack of Clubs Jack of Diamonds King of Spades Ace of Spades Ace of Diamonds 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Joe has a better hand and wins 64
+
+After round 75, player status: 
+ Name: Joe Dealer: True Money: 1242
+ Name: Sue Dealer: False Money: 761
+ 
+Starting round 76
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Clubs Four of Clubs Four of Hearts Seven of Diamonds Ten of Hearts 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Five of Hearts Five of Clubs Seven of Spades Ten of Clubs Jack of Spades 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 62
+ 
+Sue has a better hand and wins 62
+
+After round 76, player status: 
+ Name: Joe Dealer: False Money: 1211
+ Name: Sue Dealer: True Money: 792
+ 
+Starting round 77
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 60
+ 
+Name: Sue
+Hand Rank: 3 
+Five of Hearts Five of Diamonds Eight of Diamonds Jack of Clubs Jack of Hearts 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Diamonds Two of Spades Seven of Hearts Jack of Diamonds Queen of Diamonds 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 62
+ 
+Sue has a better hand and wins 62
+
+After round 77, player status: 
+ Name: Joe Dealer: True Money: 1180
+ Name: Sue Dealer: False Money: 823
+ 
+Starting round 78
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Joe
+Hand Rank: 3 
+Seven of Diamonds Seven of Hearts Ten of Diamonds Ten of Hearts Queen of Spades 
+
+ 
+Name: Sue
+Hand Rank: 3 
+Five of Spades Five of Hearts Jack of Clubs King of Spades King of Hearts 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Sue has a better hand and wins 64
+
+After round 78, player status: 
+ Name: Joe Dealer: False Money: 1148
+ Name: Sue Dealer: True Money: 855
+ 
+Starting round 79
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Sue
+Hand Rank: 2 
+Three of Diamonds Four of Diamonds Five of Diamonds Eight of Hearts Eight of Diamonds 
+
+ 
+Name: Joe
+Hand Rank: 3 
+Eight of Clubs Eight of Spades Jack of Clubs Ace of Spades Ace of Diamonds 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 65
+ 
+Joe has a better hand and wins 65
+
+After round 79, player status: 
+ Name: Joe Dealer: True Money: 1180
+ Name: Sue Dealer: False Money: 823
+ 
+Starting round 80
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 60
+ 
+Name: Joe
+Hand Rank: 2 
+Three of Diamonds Six of Diamonds Seven of Spades Ace of Clubs Ace of Diamonds 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Five of Clubs Nine of Hearts Jack of Diamonds Jack of Spades Queen of Clubs 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 62
+ 
+Joe has a better hand and wins 62
+
+After round 80, player status: 
+ Name: Joe Dealer: False Money: 1211
+ Name: Sue Dealer: True Money: 792
+ 
+Starting round 81
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 60
+ 
+Name: Sue
+Hand Rank: 2 
+Two of Spades Two of Hearts Eight of Clubs Queen of Clubs King of Hearts 
+
+ 
+Name: Joe
+Hand Rank: 4 
+Six of Spades Nine of Spades Nine of Clubs Nine of Hearts Ace of Diamonds 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1144
+ 
+Player: Sue Action Phase: Bet2 Action Name: fold Amount: 0
+ 
+After Bet2, pot is 1204
+ 
+Sue folded. Other player gets the pot of 1204
+
+After round 81, player status: 
+ Name: Joe Dealer: True Money: 1241
+ Name: Sue Dealer: False Money: 762
+ 
+Starting round 82
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Spades Three of Hearts Six of Hearts Six of Diamonds Eight of Diamonds 
+
+ 
+Name: Sue
+Hand Rank: 1 
+Two of Clubs Six of Clubs Seven of Diamonds Jack of Clubs Ace of Clubs 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 65
+ 
+Joe has a better hand and wins 65
+
+After round 82, player status: 
+ Name: Joe Dealer: False Money: 1274
+ Name: Sue Dealer: True Money: 729
+ 
+Starting round 83
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 60
+ 
+Name: Sue
+Hand Rank: 1 
+Two of Clubs Seven of Hearts Jack of Diamonds King of Diamonds Ace of Diamonds 
+
+ 
+Name: Joe
+Hand Rank: 7 
+Eight of Diamonds Eight of Hearts Eight of Clubs Ten of Spades Ten of Hearts 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1243
+ 
+Player: Sue Action Phase: Bet2 Action Name: fold Amount: 0
+ 
+After Bet2, pot is 1303
+ 
+Sue folded. Other player gets the pot of 1303
+
+After round 83, player status: 
+ Name: Joe Dealer: True Money: 1304
+ Name: Sue Dealer: False Money: 699
+ 
+Starting round 84
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 60
+ 
+Name: Joe
+Hand Rank: 1 
+Four of Spades Six of Diamonds Seven of Spades Ten of Hearts King of Spades 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Three of Spades Five of Spades Eight of Diamonds Eight of Hearts Ace of Clubs 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 62
+ 
+Sue has a better hand and wins 62
+
+After round 84, player status: 
+ Name: Joe Dealer: False Money: 1273
+ Name: Sue Dealer: True Money: 730
+ 
+Starting round 85
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Sue
+Hand Rank: 2 
+Three of Diamonds Three of Clubs Five of Hearts Six of Diamonds Nine of Diamonds 
+
+ 
+Name: Joe
+Hand Rank: 3 
+Five of Clubs Five of Spades Seven of Spades Eight of Diamonds Eight of Spades 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Joe has a better hand and wins 64
+
+After round 85, player status: 
+ Name: Joe Dealer: True Money: 1305
+ Name: Sue Dealer: False Money: 698
+ 
+Starting round 86
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+After Bet1, pot is 60
+ 
+Name: Joe
+Hand Rank: 2 
+Two of Spades Two of Diamonds Six of Hearts Jack of Hearts King of Spades 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Three of Hearts Five of Diamonds Seven of Hearts Ten of Diamonds Ten of Clubs 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 60
+ 
+Sue has a better hand and wins 60
+
+After round 86, player status: 
+ Name: Joe Dealer: False Money: 1275
+ Name: Sue Dealer: True Money: 728
+ 
+Starting round 87
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Sue
+Hand Rank: 2 
+Four of Spades Five of Diamonds Seven of Clubs Eight of Spades Eight of Diamonds 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Ten of Hearts Jack of Clubs Jack of Hearts Queen of Hearts Ace of Hearts 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 65
+ 
+Joe has a better hand and wins 65
+
+After round 87, player status: 
+ Name: Joe Dealer: True Money: 1307
+ Name: Sue Dealer: False Money: 696
+ 
+Starting round 88
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 63
+ 
+Name: Joe
+Hand Rank: 2 
+Three of Hearts Eight of Hearts Queen of Spades Ace of Spades Ace of Hearts 
+
+ 
+Name: Sue
+Hand Rank: 8 
+Seven of Spades Seven of Diamonds Seven of Hearts Seven of Clubs Nine of Spades 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 63
+ 
+Sue has a better hand and wins 63
+
+After round 88, player status: 
+ Name: Joe Dealer: False Money: 1276
+ Name: Sue Dealer: True Money: 728
+ 
+Starting round 89
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Sue
+Hand Rank: 3 
+Four of Diamonds Four of Hearts Seven of Diamonds Seven of Spades Queen of Hearts 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Three of Spades Six of Spades Ten of Spades Ace of Clubs Ace of Hearts 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Sue has a better hand and wins 64
+
+After round 89, player status: 
+ Name: Joe Dealer: True Money: 1244
+ Name: Sue Dealer: False Money: 760
+ 
+Starting round 90
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Joe
+Hand Rank: 2 
+Nine of Diamonds Jack of Spades Queen of Diamonds Queen of Hearts King of Spades 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Two of Clubs Four of Clubs Six of Diamonds Six of Clubs Jack of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 62
+ 
+Joe has a better hand and wins 62
+
+After round 90, player status: 
+ Name: Joe Dealer: False Money: 1275
+ Name: Sue Dealer: True Money: 729
+ 
+Starting round 91
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Sue
+Hand Rank: 2 
+Two of Spades Three of Spades Ten of Hearts King of Clubs King of Diamonds 
+
+ 
+Name: Joe
+Hand Rank: 2 
+Four of Hearts Five of Clubs Seven of Clubs Seven of Spades Jack of Diamonds 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 62
+ 
+Sue has a better hand and wins 62
+
+After round 91, player status: 
+ Name: Joe Dealer: True Money: 1244
+ Name: Sue Dealer: False Money: 760
+ 
+Starting round 92
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Joe
+Hand Rank: 2 
+Six of Clubs Seven of Hearts King of Spades King of Clubs Ace of Diamonds 
+
+ 
+Name: Sue
+Hand Rank: 1 
+Two of Clubs Three of Diamonds Six of Spades Nine of Hearts Queen of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Joe has a better hand and wins 64
+
+After round 92, player status: 
+ Name: Joe Dealer: False Money: 1276
+ Name: Sue Dealer: True Money: 728
+ 
+Starting round 93
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Sue
+Hand Rank: 2 
+Two of Hearts Three of Diamonds Three of Spades Queen of Diamonds King of Hearts 
+
+ 
+Name: Joe
+Hand Rank: 1 
+Three of Hearts Four of Diamonds Five of Spades Jack of Hearts King of Diamonds 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Sue has a better hand and wins 64
+
+After round 93, player status: 
+ Name: Joe Dealer: True Money: 1244
+ Name: Sue Dealer: False Money: 760
+ 
+Starting round 94
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Joe
+Hand Rank: 2 
+Six of Diamonds Six of Hearts Seven of Clubs Eight of Clubs Jack of Spades 
+
+ 
+Name: Sue
+Hand Rank: 7 
+Jack of Hearts Jack of Diamonds King of Spades King of Hearts King of Diamonds 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 728
+ 
+Player: Joe Action Phase: Bet2 Action Name: fold Amount: 0
+ 
+After Bet2, pot is 790
+ 
+Joe folded. Other player gets the pot of 790
+
+After round 94, player status: 
+ Name: Joe Dealer: False Money: 1213
+ Name: Sue Dealer: True Money: 791
+ 
+Starting round 95
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1182
+ 
+Player: Sue Action Phase: Bet1 Action Name: fold Amount: 0
+ 
+After Bet1, pot is 1242
+ 
+Sue folded. Other player gets the pot of 1242
+
+After round 95, player status: 
+ Name: Joe Dealer: True Money: 1243
+ Name: Sue Dealer: False Money: 761
+ 
+Starting round 96
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Joe
+Hand Rank: 1 
+Two of Hearts Four of Spades Nine of Diamonds Jack of Hearts Ace of Spades 
+
+ 
+Name: Sue
+Hand Rank: 2 
+Six of Diamonds Seven of Hearts Eight of Clubs Eight of Hearts Jack of Spades 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+After Bet2, pot is 62
+ 
+Sue has a better hand and wins 62
+
+After round 96, player status: 
+ Name: Joe Dealer: False Money: 1212
+ Name: Sue Dealer: True Money: 792
+ 
+Starting round 97
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Sue
+Hand Rank: 1 
+Five of Hearts Eight of Diamonds Nine of Diamonds Ten of Diamonds Ace of Clubs 
+
+ 
+Name: Joe
+Hand Rank: 1 
+Two of Clubs Six of Clubs Seven of Diamonds Queen of Clubs King of Clubs 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Sue has a better hand and wins 0
+
+After round 97, player status: 
+ Name: Joe Dealer: True Money: 1180
+ Name: Sue Dealer: False Money: 824
+ 
+Starting round 98
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Joe
+Hand Rank: 3 
+Six of Hearts Six of Spades Ten of Clubs King of Clubs King of Spades 
+
+ 
+Name: Sue
+Hand Rank: 3 
+Two of Clubs Two of Diamonds Five of Spades Eight of Spades Eight of Hearts 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Joe has a better hand and wins 64
+
+After round 98, player status: 
+ Name: Joe Dealer: False Money: 1212
+ Name: Sue Dealer: True Money: 792
+ 
+Starting round 99
+Ante for this round: 30
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Sue
+Hand Rank: 1 
+Six of Hearts Seven of Clubs Nine of Hearts King of Clubs Ace of Diamonds 
+
+ 
+Name: Joe
+Hand Rank: 1 
+Seven of Spades Eight of Spades Nine of Diamonds Jack of Spades Queen of Clubs 
+
+ 
+Betting round 2:
+Player: Sue Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Joe Action Phase: Bet2 Action Name: bet Amount: 1
+ 
+Player: Sue Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 64
+ 
+Joe has a better hand and wins 0
+
+After round 99, player status: 
+ Name: Joe Dealer: True Money: 1180
+ Name: Sue Dealer: False Money: 824
+ 
+Starting round 100
+Ante for this round: 30
+Betting round 1:
+Player: Joe Action Phase: Bet1 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 1
+ 
+Player: Joe Action Phase: Bet1 Action Name: call Amount: 0
+ 
+After Bet1, pot is 62
+ 
+Name: Joe
+Hand Rank: 3 
+Ten of Spades Ten of Hearts Jack of Spades Ace of Hearts Ace of Spades 
+
+ 
+Name: Sue
+Hand Rank: 6 
+Two of Clubs Four of Clubs Six of Clubs King of Clubs Ace of Clubs 
+
+ 
+Betting round 2:
+Player: Joe Action Phase: Bet2 Action Name: check Amount: 0
+ 
+Player: Sue Action Phase: Bet2 Action Name: bet Amount: 790
+ 
+Player: Joe Action Phase: Bet2 Action Name: call Amount: 0
+ 
+After Bet2, pot is 1642
+ 
+Sue has a better hand and wins 1642
+
+After round 100, player status: 
+ Name: Joe Dealer: False Money: 359
+ Name: Sue Dealer: True Money: 1645
+ 
+After 100 rounds:
+Joe has 359 credits and Sue has 1645credits. Sue is the winner!

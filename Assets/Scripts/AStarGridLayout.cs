@@ -22,12 +22,13 @@ public class AStarGridLayout : MonoBehaviour
     public float NodeWidth => (_nodeXWidth + _nodeZWidth) / 2.0f;
 
     public Color[] Colors;
+    public List<int>[,] ColorIndex;
 
     // Use this for initialization
     void Awake()
     {
         _terrainPosition = MainTerrain.transform.position;
-        _drawGizmos = true;
+        _drawGizmos = false;
         _terrainSize = MainTerrain.terrainData.size;
 
         _nodeXWidth = (_terrainSize.x / GridSize);
@@ -78,27 +79,35 @@ public class AStarGridLayout : MonoBehaviour
         List<Vector3> vert = new List<Vector3>();
 
         List<int> indicies = new List<int>();
+
+        ColorIndex = new List<int>[GridSize, GridSize];
+        for (int i = 0; i < GridSize; ++i)
+            for (int j = 0; j < GridSize; ++j)
+                ColorIndex[i, j] = new List<int>(4);
         int index = 0;
         for (int i = 0; i < GridSize; i++)
         {
             for (int j = 0; j < GridSize; j++)
             {
-
                 if (i + 1 < GridSize)
                 {
-                    vert.Add(Grid[i, j].PositionInWorld + 1f * Vector3.up);
+                    vert.Add(Grid[i, j].PositionInWorld);
+                    ColorIndex[i, j].Add(index);
                     indicies.Add(index++);
 
-                    vert.Add(Grid[i + 1, j].PositionInWorld + 1f * Vector3.up);
+                    vert.Add(Grid[i + 1, j].PositionInWorld);
+                    ColorIndex[i + 1, j].Add(index);
                     indicies.Add(index++);
                 }
 
                 if (j + 1 < GridSize)
                 {
-                    vert.Add(Grid[i, j].PositionInWorld + 1f * Vector3.up);
+                    vert.Add(Grid[i, j].PositionInWorld);
+                    ColorIndex[i, j].Add(index);
                     indicies.Add(index++);
 
-                    vert.Add(Grid[i, j + 1].PositionInWorld + 1f * Vector3.up);
+                    vert.Add(Grid[i, j + 1].PositionInWorld);
+                    ColorIndex[i, j + 1].Add(index);
                     indicies.Add(index++);
                 }
             }
@@ -111,15 +120,14 @@ public class AStarGridLayout : MonoBehaviour
         MeshRenderer mR = GetComponent<MeshRenderer>();
         mR.material = new Material(Shader.Find("Sprites/Default"));
         //mR.material.color = Color.white;
-        Debug.Log(vert.Count);
-        Debug.Log(GridSize * GridSize);
-        Colors = new Color[GridSize * GridSize * 4 - (100 * 4)];
-        for (int i = 0; i < GridSize * GridSize * 4 - (100 * 4); ++i)
+        //Debug.Log(vert.Count);
+        //Debug.Log(GridSize * GridSize);
+        Colors = new Color[vert.Count];
+        for (int i = 0; i < Colors.Length; ++i)
         {
             Colors[i] = Color.gray;
         }
-
-        mF.mesh.colors = Colors;
+        UpdateColor();
 
     }
 

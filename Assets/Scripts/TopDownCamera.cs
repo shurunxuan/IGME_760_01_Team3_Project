@@ -29,11 +29,11 @@ public class TopDownCamera : MonoBehaviour {
         }
         if (Input.mouseScrollDelta.y > 0)
         {
-            Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y - (20.0f * Time.deltaTime), Camera.main.transform.position.z);
+            Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y - (100.0f * Time.deltaTime), Camera.main.transform.position.z);
         }
         if (Input.mouseScrollDelta.y < 0)
         {
-            Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y + (20.0f * Time.deltaTime), Camera.main.transform.position.z);
+            Camera.main.transform.position = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y + (100.0f * Time.deltaTime), Camera.main.transform.position.z);
         }
     }
 }

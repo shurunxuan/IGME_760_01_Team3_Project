@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class CubeSpawner : MonoBehaviour
 {
@@ -197,15 +198,25 @@ public class CubeSpawner : MonoBehaviour
         strength = new int[GridLayout.GridSize, GridLayout.GridSize];
         foreach (var cube in cubes)
         {
-            Debug.Log(cube.name);
+            //Debug.Log(cube.name);
             Influence cubeInfluence = cube.GetComponent<Influence>();
             GridNode node = GridLayout.GetNodeFromPosition(cube.transform.position);
             for (int i = -cubeInfluence.strength + 1; i < cubeInfluence.strength; ++i)
             {
                 for (int j = -cubeInfluence.strength + 1; j < cubeInfluence.strength; ++j)
                 {
-                    strength[node.X + i, node.Y + j] += (cubeInfluence.strength - Mathf.Max(Mathf.Abs(i), Mathf.Abs(j))) * (cube.GetComponent<Influence>().side ? 1 : -1);
-                    Debug.Log(cube.GetComponent<Influence>().side);
+                    // Laziness
+                    try
+                    {
+                        strength[node.X + i, node.Y + j] += (cubeInfluence.strength - Mathf.Max(Mathf.Abs(i), Mathf.Abs(j))) * (cube.GetComponent<Influence>().side ? 1 : -1);
+                    }
+                    catch (IndexOutOfRangeException e)
+                    {
+                        // Index out of rage
+                        Debug.Log(e);
+                    }
+                    //strength[node.X + i, node.Y + j] += (cubeInfluence.strength - Mathf.Max(Mathf.Abs(i), Mathf.Abs(j))) * (cube.GetComponent<Influence>().side ? 1 : -1);
+                    //Debug.Log(cube.GetComponent<Influence>().side);
                 }
             }
         }
